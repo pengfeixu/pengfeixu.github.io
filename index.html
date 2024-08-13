@@ -33,7 +33,10 @@ navbar_title: Home
 %}
 
 
+
 {% assign grp = site.data.group %}
+<h2 class="pt-4" id="all_pubs_id">"{{grp}}"</h2>
+
 {% 
     include widgets/group_card.html 
     group=grp
