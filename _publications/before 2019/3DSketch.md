@@ -5,7 +5,7 @@ selected:       true
 pub:            "IEEE Transactions on Visualization and Computer Graphics"
 pub_date:       "2018"
 # abstract: >-
-cover:          /assets/images/covers/sketch_tvcg.png
+cover:          /assets/images/covers/sketch_tvcg.jpg
 authors:
 - Pengfei Xu
 - Hongbo Fu
