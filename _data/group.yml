@@ -1,32 +1,74 @@
 
 
 students:
-- name: AAAA
+- name: Xin Hu
   program: Master
   period: 2022-present
   interest: Computer Graphics
   portrait: /assets/images/photos/portrait.jpg
 
-- name: BBBB
+- name: Jialuo Li
   program: Master
   period: 2022-present
   interest: Computer Graphics
   portrait: /assets/images/photos/portrait.jpg
 
-- name: CCCC
+- name: Yijie Li
   program: Master
   period: 2022-present
   interest: Computer Graphics
   portrait: /assets/images/photos/portrait.jpg
 
-- name: DDDD
+- name: Yi Zhou
   program: Master
   period: 2022-present
   interest: Computer Graphics
+  portrait: /assets/images/photos/zhouyi.jpg
+
+- name: Mu Liang
+  program: Master
+  period: 2021-present
+  interest: Computer Graphics
   portrait: /assets/images/photos/portrait.jpg
 
-- name: EEEE
+- name: Junquan Ren
   program: Master
-  period: 2022-present
+  period: 2023-present
+  interest: Computer Graphics
+  portrait: /assets/images/photos/junquan.jpg
+
+- name: Zefan Shao
+  program: Master
+  period: 2023-present
+  interest: Computer Graphics
+  portrait: /assets/images/photos/zefan.jpg
+
+- name: Hongliang Yang
+  program: Master
+  period: 2023-present
+  interest: Computer Graphics
+  portrait: /assets/images/photos/hongliang.jpg
+
+- name: Jin Zhou
+  program: Master
+  period: 2023-present
+  interest: Computer Graphics
+  portrait: /assets/images/photos/zhoujin.jpg
+
+- name: Peinan Lin
+  program: Master
+  period: 2024-present
+  interest: Computer Graphics
+  portrait: /assets/images/photos/portrait.jpg
+
+- name: Tianci Shi
+  program: Master
+  period: 2024-present
+  interest: Computer Graphics
+  portrait: /assets/images/photos/portrait.jpg
+
+- name: Hao Wu
+  program: Master
+  period: 2024-present
   interest: Computer Graphics
   portrait: /assets/images/photos/portrait.jpg
