@@ -32,7 +32,12 @@ navbar_title: Home
     title='Publications'
 %}
 
-
+{% assign grp = site.data.group %}
+{% 
+    include widgets/group_card.html 
+    group=grp
+    title='Group'
+%}
 
 
 <!-- {% assign all_pubs = site.publications | sort: "date" | reverse | group_by_exp: "item", "item.date | date: '%Y'" %} -->
