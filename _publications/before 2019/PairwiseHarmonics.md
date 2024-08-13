@@ -5,7 +5,7 @@ selected:       true
 pub:            "IEEE Transactions on Visualization and Computer Graphics"
 pub_date:       "2012"
 # abstract: >-
-cover:          /assets/images/covers/pairwiseHarmonics.png
+cover:          /assets/images/covers/pairwiseHarmonics.jpg
 authors:
 - Youyi Zheng
 - Chiew-Lan Tai

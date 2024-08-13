@@ -5,7 +5,7 @@ selected:       true
 pub:            "IEEE Transactions on Visualization and Computer Graphics"
 pub_date:       "2011"
 # abstract: >-
-cover:          /assets/images/covers/concavefield.png
+cover:          /assets/images/covers/concavefield.jpg
 authors:
 - Oscar Kin-Chung Au
 - Youyi Zheng

@@ -5,7 +5,7 @@ selected:       true
 pub:            "MobileHCI"
 pub_date:       "2016"
 # abstract: >-
-cover:          /assets/images/covers/2DDragger.png
+cover:          /assets/images/covers/2DDragger.jpg
 authors:
 - Qingkun SU
 - Oscar Kin-Chung Au

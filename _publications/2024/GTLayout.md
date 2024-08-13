@@ -10,7 +10,7 @@ pub_date:       "2024"
 
 # abstract: >-
 #   Photo by Pineapple Supply Co. on Unsplash. Massa ultricies mi quis hendrerit dolor magna. Arcu non odio euismod lacinia at quis risus sed. Et tortor at risus viverra. Enim neque volutpat ac tincidunt. Dictum varius duis at consectetur lorem donec.
-cover:          /assets/images/covers/GTLayout.png
+cover:          /assets/images/covers/GTLayout.jpg
 authors:
   - Pengfei Xu
   - Weiran Shi

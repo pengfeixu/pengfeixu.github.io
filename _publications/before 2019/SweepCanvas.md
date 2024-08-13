@@ -5,7 +5,7 @@ selected:       true
 pub:            "ACM User Interface Software and Technology Symposium"
 pub_date:       "2017"
 # abstract: >-
-cover:          /assets/images/covers/sweepCanvas.png
+cover:          /assets/images/covers/sweepCanvas.jpg
 authors:
 - Yuwei Li
 - Xi Luo

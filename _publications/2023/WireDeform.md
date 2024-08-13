@@ -5,7 +5,7 @@ selected:       true
 pub:            "Computers & Graphics"
 pub_date:       "2023"
 # abstract: >-
-cover:          /assets/images/covers/WireDeform.png
+cover:          /assets/images/covers/WireDeform.jpg
 authors:
 - Zhonghao Cao
 - Pengfei Xu#

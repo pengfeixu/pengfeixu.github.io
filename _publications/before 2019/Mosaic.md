@@ -5,7 +5,7 @@ selected:       true
 pub:            "Computational Visual Media"
 pub_date:       "2019"
 # abstract: >-
-cover:          /assets/images/covers/cvm_mosaic.png
+cover:          /assets/images/covers/cvm_mosaic.jpg
 authors:
 - Pengfei Xu
 - Jianqiang Ding
