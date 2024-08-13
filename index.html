@@ -42,14 +42,14 @@ navbar_title: Home
 %}
 
 
-<p class="pt-4" id="all_pubs_id">"{{grp}}"</p>
-<p class="pt-4" id="all_pubs_id">{{grp}}</p>
+<p>"{{grp}}"</p>
+<p>{{grp}}</p>
 
 {% for item in grp %}
-<p class="pt-4" id="all_pubs_id">"{{item}}"</p>
-<p class="pt-4" id="all_pubs_id">{{item}}</p>
-<p class="pt-4" id="all_pubs_id">"{{item.Name}}"</p>
-<p class="pt-4" id="all_pubs_id">{{item.Name}}</p>
+    <p>"{{item}}"</p>
+    <p>{{item}}</p>
+    <p>"{{item.Name}}"</p>
+    <p>{{ item.Name }}</p>
 {% endfor %}
 
 <!-- {% assign all_pubs = site.publications | sort: "date" | reverse | group_by_exp: "item", "item.date | date: '%Y'" %} -->
