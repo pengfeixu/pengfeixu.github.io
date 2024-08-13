@@ -33,6 +33,12 @@ navbar_title: Home
 %}
 
 
+{% assign grt = site.data.grants %}
+{% 
+    include widgets/grant_card.html 
+    grants=grt
+    title='Grants'
+%}
 
 {% assign grp = site.data.group.students %}
 {% 
