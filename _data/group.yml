@@ -12,3 +12,21 @@ students:
   period: 2022-present
   interest: Computer Graphics
   portrait: /assets/images/photos/portrait.jpg
+
+- name: CCCC
+  program: Master
+  period: 2022-present
+  interest: Computer Graphics
+  portrait: /assets/images/photos/portrait.jpg
+
+- name: DDDD
+  program: Master
+  period: 2022-present
+  interest: Computer Graphics
+  portrait: /assets/images/photos/portrait.jpg
+
+- name: EEEE
+  program: Master
+  period: 2022-present
+  interest: Computer Graphics
+  portrait: /assets/images/photos/portrait.jpg
