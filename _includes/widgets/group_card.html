@@ -5,8 +5,9 @@
     <h5 class="border-bottom border-gray p-3 mb-0" id="Group">
         {{ include.title }} 
     </h5>
-
+    <center>
     {% for item in group %}
         {% include widgets/group_item.html item=item %}
     {% endfor %}
+    </center>
 </div>
