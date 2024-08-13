@@ -38,6 +38,11 @@ navbar_title: Home
 <p class="pt-4" id="all_pubs_id">"{{grp}}"</p>
 <p class="pt-4" id="all_pubs_id">{{grp}}</p>
 
+{% for item in grp %}
+<p class="pt-4" id="all_pubs_id">"{{item}}"</p>
+{% endfor %}
+
+
 {% 
     include widgets/group_card.html 
     group=grp
