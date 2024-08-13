@@ -1,14 +1,14 @@
-<!-- {% assign item = include.item %}
-<div style="text-align: center; margin-bottom: 10px; display: inline-block; margin-right: 10px;">
-    <img src="{{item.Portrait | relative_url}}" alt="{{item.title}}" style="width: 160px; height: 160px; border-radius: 50%;">
-    <div style="text-align: center; font-size: 12px;">
-      <p style="margin: 2px 0; font-size: 18px">"{{item.Name}}"</p>
-      <p style="margin: 0px 0;">"{{item.Period}}"</p>
-      <p style="margin: 0px 0;">"{{item.Program}}"</p>
-    </div>
-</div> -->
-
 {% assign item = include.item %}
+<div style="text-align: center; margin-bottom: 10px; display: inline-block; margin-right: 10px;">
+    <img src={{item.Portrait | relative_url}} alt={{item.title}} style="width: 160px; height: 160px; border-radius: 50%;">
+    <div style="text-align: center; font-size: 12px;">
+      <p style="margin: 2px 0; font-size: 18px">{{item.Name}}</p>
+      <p style="margin: 0px 0;">{{item.Period}}</p>
+      <p style="margin: 0px 0;">{{item.Program}}</p>
+    </div>
+</div>
+
+<!-- {% assign item = include.item %}
 <div style="text-align: center; margin-bottom: 10px; display: inline-block; margin-right: 10px;">
     <img src="/assets/images/photos/portrait.jpg" alt="BBBB" style="width: 160px; height: 160px; border-radius: 50%;">
     <div style="text-align: center; font-size: 12px;">
@@ -16,4 +16,4 @@
       <p style="margin: 0px 0;">"CCCC"</p>
       <p style="margin: 0px 0;">"DDDD"</p>
     </div>
-</div>
+</div> -->
