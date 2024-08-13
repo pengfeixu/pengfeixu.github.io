@@ -50,6 +50,8 @@ navbar_title: Home
     <p>{{item}}</p>
     <p>"{{item.Name}}"</p>
     <p>{{ item.Name }}</p>
+    <p>"{{item.Program}}"</p>
+    <p>{{ item.Program }}</p>
 {% endfor %}
 
 <!-- {% assign all_pubs = site.publications | sort: "date" | reverse | group_by_exp: "item", "item.date | date: '%Y'" %} -->
