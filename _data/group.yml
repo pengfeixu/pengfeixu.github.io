@@ -1,15 +1,14 @@
 
 
-"AA":
-- Name: BBB
-  Program: Master
-  Period: 2022-present
-  Interest: Computer Graphics
-  Portrait: /assets/images/photos/portrait.jpg
+students:
+- name: AAAA
+  program: Master
+  period: 2022-present
+  interest: Computer Graphics
+  portrait: /assets/images/photos/portrait.jpg
 
-"AAA":
-- Name: BBBB
-  Program: Master
-  Period: 2022-present
-  Interest: Computer Graphics
-  Portrait: /assets/images/photos/portrait.jpg
+- name: BBBB
+  program: Master
+  period: 2022-present
+  interest: Computer Graphics
+  portrait: /assets/images/photos/portrait.jpg

@@ -34,7 +34,7 @@ navbar_title: Home
 
 
 
-{% assign grp = site.data.group %}
+{% assign grp = site.data.group.students %}
 {% 
     include widgets/group_card.html 
     group=grp
@@ -48,10 +48,10 @@ navbar_title: Home
 {% for item in grp %}
     <p>"{{item}}"</p>
     <p>{{item}}</p>
-    <p>"{{item.Name}}"</p>
-    <p>{{ item.Name }}</p>
-    <p>"{{item.Program}}"</p>
-    <p>{{ item.Program }}</p>
+    <p>"{{item.name}}"</p>
+    <p>{{ item.name }}</p>
+    <p>"{{item.program}}"</p>
+    <p>{{ item.program }}</p>
 {% endfor %}
 
 <!-- {% assign all_pubs = site.publications | sort: "date" | reverse | group_by_exp: "item", "item.date | date: '%Y'" %} -->
