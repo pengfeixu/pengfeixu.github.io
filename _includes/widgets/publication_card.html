@@ -1,8 +1,8 @@
 {% assign publications = include.publications %}
 <div class="my-3 p-0 bg-white shadow-sm rounded-sm">
-    <h6 class="border-bottom border-gray p-3 mb-0">
+    <h5 class="border-bottom border-gray p-3 mb-0">
         {{ include.title }} 
-    </h6>
+    </h5>
 
     {% for item in publications %}
         {% include widgets/publication_item.html item=item %}
