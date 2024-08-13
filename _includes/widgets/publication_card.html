@@ -1,0 +1,28 @@
+{% assign publications = include.publications %}
+<div class="my-3 p-0 bg-white shadow-sm rounded-sm">
+    <h6 class="border-bottom border-gray p-3 mb-0">
+        {{ include.title }} 
+    </h6>
+
+    {% for item in publications %}
+        {% include widgets/publication_item.html item=item %}
+    {% endfor %}
+    <!-- {% for year in pubs_by_year %}
+        {% assign num_papers = year.items | size %}
+        <div class="my-0 p-0 bg-white shadow-sm rounded-sm">
+            {% for item in year.items %}
+                {% include widgets/publication_item.html item=item %}
+            {% endfor %}
+        </div>
+    {% endfor %} -->
+</div>
+
+<!-- <h3 class="pt-4" id="Publications">Publications</h3>
+{% for year in pubs_by_year %}
+    {% assign num_papers = year.items | size %}
+    <div class="my-0 p-0 bg-white shadow-sm rounded-sm">
+        {% for item in year.items %}
+            {% include widgets/publication_item.html item=item %}
+        {% endfor %}
+    </div>
+{% endfor %} -->

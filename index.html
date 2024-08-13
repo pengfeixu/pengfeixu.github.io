@@ -1,0 +1,110 @@
+---
+layout: default
+title : Homepage
+navbar_title: Home
+---
+
+
+{% include widgets/head-custom-google-analytics.html %}
+
+{% include widgets/profile_card.html %}
+
+{% include widgets/url_debug_message.html %}
+
+{% if site.data.display.homepage.show_experience %}
+{% include widgets/experience_card.html %}
+{% endif %}
+
+{% if site.data.display.homepage.show_news %}
+{% assign count_news = site.news | size %}
+{% if count_news > 0 %}
+{% include widgets/news_card.html %}
+{% endif %}
+{% endif %}
+
+
+
+
+{% assign pubs = site.publications | sort: "date" | reverse %}
+{% 
+    include widgets/publication_card.html 
+    publications=pubs
+    title='Publications'
+%}
+
+
+
+
+<!-- {% assign all_pubs = site.publications | sort: "date" | reverse | group_by_exp: "item", "item.date | date: '%Y'" %} -->
+
+
+<!-- {% for year in all_pubs %} -->
+    <!-- {% assign num_papers = all_pubs.items | size %}
+    <h2 class="pt-4" id="all_pubs_id">Publications</h2>
+    <div class="my-0 p-0 bg-white shadow-sm rounded-sm">
+        {% for item in all_pubs.items %}
+            {% include widgets/publication_item.html item=item %}
+        {% endfor %}
+    </div> -->
+<!-- {% endfor %} -->
+
+
+
+<!-- {% assign pubs_by_year = site.publications | sort: "date" | reverse | group_by_exp: "item", "item.date | date: '%Y'" %}
+
+
+{% for year in pubs_by_year %}
+    {% assign num_papers = year.items | size %}
+    <h2 class="pt-4" id="year-{{ year.name }}">{{ year.name }}</h2>
+    <div class="my-0 p-0 bg-white shadow-sm rounded-sm">
+        {% for item in year.items %}
+            {% include widgets/publication_item.html item=item %}
+        {% endfor %}
+    </div>
+{% endfor %} -->
+
+<!-- <div class="col-12 col-lg-10">
+    {% for year in pubs_by_year %}
+    {% assign num_papers = year.items | size %}
+    <h2 class="pt-4" id="year-{{ year.name }}">{{ year.name }}</h2>
+    <div class="my-0 p-0 bg-white shadow-sm rounded-sm">
+        {% for item in year.items %}
+            {% include widgets/publication_item.html item=item %}
+        {% endfor %}
+    </div>
+    {% endfor %}
+</div> -->
+
+
+<!-- <div class="row">
+    <div class="col-12 col-lg-10">
+        {% for year in pubs_by_year %}
+        {% assign num_papers = year.items | size %}
+        <h2 class="pt-4" id="year-{{ year.name }}">{{ year.name }}</h2>
+        <div class="my-0 p-0 bg-white shadow-sm rounded-sm">
+            {% for item in year.items %}
+                {% include widgets/publication_item.html item=item %}
+            {% endfor %}
+        </div>
+        {% endfor %}
+    </div>
+
+    <div class="col-2 d-none d-lg-block">
+        <div id="navbar-year" class="nav nav-pills flex-column sticky-top" style="top: 80px">
+            {% for year in pubs_by_year %}
+            <a class="nav-link d-block" href="#year-{{ year.name }}">{{ year.name }}</a>
+            {% endfor %}
+        </div>
+    </div>
+
+</div> -->
+
+
+<!-- {% if site.data.display.homepage.show_selected_publications %}
+{% assign pubs = site.publications | sort: "date" | reverse | where: "selected", true %}
+{% 
+    include widgets/publication_card.html 
+    publications=pubs
+    title='<i class="fas fa-star"></i> Selected Publications'
+%}
+{% endif %} -->

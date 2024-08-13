@@ -1,0 +1,86 @@
+primary_name: "Pengfei Xu"
+secondary_name: ""
+navbar_name: "Pengfei Xu"
+
+positions:
+ - logo: /assets/images/badges/SZU.png  # Logo is optional
+   name: Associate Professor @ Shenzhen University
+# - name: Associate Professor @ Shenzhen University
+# - affiliation: Shenzhen University
+# - address: L6-808-B, South Campus, Shenzhen University, China
+
+address: L6-808-B, South Campus, Shenzhen University, China
+
+
+
+email: "xupengfei.cg@gmail.com" 
+email2: "pengfeixu@szu.edu.cn"
+# cv_link: link-to-your-cv-file
+gscholar: bmC8UcoAAAAJ
+# github: your_github_id
+# twitter: your_twitter_id
+# wechat_qrcode: /assets/images/etc/wechat.jpg
+# wechat_prompt: >-
+#   Please tell me your <strong>name</strong> and <strong>affiliation</strong> (current or past) when adding my wechat. Thanks!
+# linkedin: your-linked-in-id
+# orcid: 0000-0000-0000-0000
+
+short_bio: >-
+  <p>I am currently an Associate Professor with the <a  href="https://vcc.tech/"> VCC group</a> at Shenzhen University. Before joining SZU, I worked with Prof. <a href="https://www.cse.ust.hk/~taicl">Chiew-Lan Tai</a> as a Postdoctoral Research Fellow at the Hong Kong University of Science and Technology, where I also obtained my Ph.D in Computer Science in 2015, under the guidance of Prof. <a href="https://www.cse.ust.hk/~taicl">Chiew-Lan Tai</a> and Prof. <a href="https://hongbofu.people.ust.hk/">Hongbo Fu</a>. Before that, I received my Bachelor's degree in Mathematics from Zhejiang University in 2009. My research falls in Computer Graphics and Human-Computer Interaction, especially automatic/interactive 2D and 3D content creation.
+  </p>
+  
+  <p>
+    I am currently looking for <strong>master</strong> and <strong>PhD</strong> students. Please feel free to contact me if you are interested in my research.
+  </p>
+
+portrait_url: /assets/images/photos/XPF_2020_s.png
+portrait_caption: >-
+  Pengfei Xu, Shenzhen University.
+
+education:
+- name: HKUST
+  logo: /assets/images/badges/HKUST.png
+  position: PhD in CSE
+  date: Feb. 2012 - Jan. 2015
+
+- name: HKUST
+  logo: /assets/images/badges/HKUST.png
+  position: MPhil in CSE
+  date: Feb. 2010 - Jan. 2012
+
+- name: Zhejiang University
+  logo: /assets/images/badges/ZJU.png
+  position: B.S. in Mathmatics
+  date: Sep. 2005 - Jul. 2009
+
+experience:
+
+- name: Shenzhen University
+  logo: /assets/images/badges/SZU.png
+  position: Associate Professor
+  date: Aug. 2023 - Present
+
+- name: Shenzhen University
+  logo: /assets/images/badges/SZU.png
+  position: Assitant Professor, Associate Researcher  
+  date: Apr. 2016 - Jul. 2023
+
+- name: HKUST
+  logo: /assets/images/badges/HKUST.png
+  position: Postdoctoral Research Fellow 
+  date: Feb. 2015 - Feb. 2016
+
+- name: Tsinghua University
+  logo: /assets/images/badges/THU.png
+  position: Research Intern
+  date: Sep. 2009 - Jan. 2010
+
+
+
+# awards:
+# - name: Award Name 2
+#   date: 2024
+# - name: Award Name 1 
+#   date: 2021
+# - name: A quick brown fox jumps over the lazy dog and runs away award
+#   date: 2021
