@@ -5,7 +5,7 @@ students:
   program: Master
   period: 2022-present
   interest: Computer Graphics
-  portrait: /assets/images/photos/portrait.jpg
+  portrait: /assets/images/photos/huxin.jpg
 
 - name: Jialuo Li
   program: Master
@@ -29,7 +29,7 @@ students:
   program: Master
   period: 2021-present
   interest: Computer Graphics
-  portrait: /assets/images/photos/portrait.jpg
+  portrait: /assets/images/photos/liangmu.jpg
 
 - name: Junquan Ren
   program: Master
@@ -71,4 +71,4 @@ students:
   program: Master
   period: 2024-present
   interest: Computer Graphics
-  portrait: /assets/images/photos/portrait.jpg
+  portrait: /assets/images/photos/wuhao.jpg
