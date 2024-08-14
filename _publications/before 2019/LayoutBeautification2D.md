@@ -5,7 +5,7 @@ selected:       true
 pub:            "ACM User Interface Software and Technology Symposium"
 pub_date:       "2014"
 # abstract: >-
-cover:          /assets/images/covers/layout_uist_2014.jpg
+cover:          /assets/images/covers/layouts_uist_2014.jpg
 authors:
 - Pengfei Xu
 - Hongbo Fu
