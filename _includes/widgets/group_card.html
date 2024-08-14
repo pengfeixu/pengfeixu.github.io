@@ -1,14 +1,26 @@
 
 
-{% assign group = include.group %}
+{% assign student = include.group.student %}
+{% assign alumni = include.group.alumni %}
 <div class="my-3 p-0 bg-white shadow-sm rounded-sm">
     <h4 class="border-bottom border-gray p-3 mb-0" id="Group">
         {{ include.title }} 
     </h4>
     <br/>
+    <p class="border-bottom border-gray p-3 mb-0">
+        Student 
+    </p>
     <center>
-    {% for item in group %}
-        {% include widgets/group_item.html item=item %}
+    {% for item in student %}
+        {% include widgets/student_item.html item=item %}
     {% endfor %}
     </center>
+    <br/>
+
+    <p class="border-bottom border-gray p-3 mb-0">
+        Alumni 
+    </p>
+    {% for item in alumni %}
+        {% include widgets/alumni_item.html item=item %}
+    {% endfor %}
 </div>

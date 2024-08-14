@@ -1,0 +1,15 @@
+
+
+{% assign item = include.item %}
+<div style="text-align: center; margin-bottom: 10px; display: inline-block; margin-right: 10px;">    
+    <div style="text-align: center; font-size: 12px;">
+      <p style="margin: 2px 0; font-size: 18px">{{item.name}}</p>
+      <p style="margin: 0px 0;">{{item.program}}</p>
+      <p style="margin: 0px 0;">{{item.period}}</p>
+      <p style="margin: 0px 0;">{{item.work}}</p>
+      {%- if item.honor -%}
+      <i class="fa fa-trophy"></i><p style="margin: 0px 0;">{{item.honor}}</p>
+      {%- endif -%}
+      
+    </div>
+</div>
