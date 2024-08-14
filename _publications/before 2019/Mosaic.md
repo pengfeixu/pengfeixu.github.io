@@ -10,7 +10,7 @@ authors:
 - Pengfei Xu
 - Jianqiang Ding
 - Hao Zhang
-- Hui Huanga
+- Hui Huang
 links:
   # Paper: 
   Project: http://vcc.szu.edu.cn/research/2019/Mosaic
