@@ -3,128 +3,128 @@
 students:
 - name: Xin Hu
   program: Master
-  period: 2022-present
+  period: 2022 - present
   interest: Computer Graphics
   portrait: /assets/images/photos/huxin.jpg
 
 - name: Jialuo Li
   program: Master
-  period: 2022-present
+  period: 2022 - present
   interest: Computer Graphics
   portrait: /assets/images/photos/jialuo.jpg
 
 - name: Yijie Li
   program: Master
-  period: 2022-present
+  period: 2022 - present
   interest: Computer Graphics
   portrait: /assets/images/photos/yijie.jpg
 
 - name: Yi Zhou
   program: Master
-  period: 2022-present
+  period: 2022 - present
   interest: Computer Graphics
   portrait: /assets/images/photos/zhouyi.jpg
 
 - name: Mu Liang
   program: Master
-  period: 2021-present
+  period: 2021 - present
   interest: Computer Graphics
   portrait: /assets/images/photos/liangmu.jpg
 
 - name: Junquan Ren
   program: Master
-  period: 2023-present
+  period: 2023 - present
   interest: Computer Graphics
   portrait: /assets/images/photos/junquan.jpg
 
 - name: Zefan Shao
   program: Master
-  period: 2023-present
+  period: 2023 - present
   interest: Computer Graphics
   portrait: /assets/images/photos/zefan.jpg
 
 - name: Hongliang Yang
   program: Master
-  period: 2023-present
+  period: 2023 - present
   interest: Computer Graphics
   portrait: /assets/images/photos/hongliang.jpg
 
 - name: Jin Zhou
   program: Master
-  period: 2023-present
+  period: 2023 - present
   interest: Computer Graphics
   portrait: /assets/images/photos/zhoujin.jpg
 
 - name: Peinan Lin
   program: Master
-  period: 2024-present
+  period: 2024 - present
   interest: Computer Graphics
   portrait: /assets/images/photos/peinan.jpg
 
 - name: Tianci Shi
   program: Master
-  period: 2024-present
+  period: 2024 - present
   interest: Computer Graphics
   portrait: /assets/images/photos/tianci.jpg
 
 - name: Hao Wu
   program: Master
-  period: 2024-present
+  period: 2024 - present
   interest: Computer Graphics
   portrait: /assets/images/photos/wuhao.jpg
 
 alumni:
 - name: Guohang Yan
   program: Master
-  period: 2016-2019
+  period: 2016 - 2019
   work: Shanghai AI Lab
 
 - name: Jianhong Yuan
   program: Master
-  period: 2016-2019
+  period: 2016 - 2019
   work: Bank of China
   remark: Co-supervised by Prof. Hui Huang
 
 - name: Jianqiang Ding
   program: Master
-  period: 2017-2020
+  period: 2017 - 2020
   work: Chinese Academy of Sciences
   remark: Co-supervised by Prof. Hui Huang
 
 - name: Yingjin Li
   program: Master
-  period: 2017-2020
+  period: 2017 - 2020
   work: Entrepreneurship
   remark: Co-supervised by Prof. Hui Huang
 
 - name: Zhuoyue Chen
   program: Master
-  period: 2018-2021
+  period: 2018 - 2021
   work: Kwai
 
 - name: Zhijin Yang
   program: Master
-  period: 2020-2023
+  period: 2020 - 2023
   work: Choho Tech
   honor: National scholarship
 
 - name: Yifan Li
   program: Master
-  period: 2020-2023
+  period: 2020 - 2023
   work: Bank of Communications
   honor: Outstanding graduate
 
 - name: Zhonghao Cao
   program: Master
-  period: 2021-2024
+  period: 2021 - 2024
   work: Bank of China
 
 - name: Banhuai Ruan
   program: Master
-  period: 2021-2024
+  period: 2021 - 2024
   work: Xiaomi
 
 - name: Weiran Shi
   program: Master
-  period: 2021-2024
+  period: 2021 - 2024
   work: Huya
