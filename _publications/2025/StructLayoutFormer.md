@@ -3,7 +3,7 @@ title:          "StructLayoutFormer: Conditional Structured Layout Generation vi
 date:           2025-5-16 00:01:00 +0800
 selected:       true
 pub:            "IEEE Transactions on Visualization and Computer Graphics"
-pub_date:       "To appear"
+pub_date:       "(To appear)"
 # abstract: >-
 cover:          /assets/images/covers/structlayoutformer.jpg
 authors:
