@@ -5,7 +5,7 @@ selected:       true
 pub:            "IEEE Transactions on Visualization and Computer Graphics"
 pub_date:       "(To appear)"
 # abstract: >-
-cover:          /assets/images/covers/structlayoutformer.jpg
+cover:          /assets/images/covers/structlayoutformer.png
 authors:
 - Xin Hu
 - Pengfei Xu#
