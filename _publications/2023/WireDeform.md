@@ -9,7 +9,7 @@ cover:          /assets/images/covers/WireDeform.jpg
 authors:
 - Zhonghao Cao
 - Pengfei Xu#
-- ZHuoyue Chen
+- Zhuoyue Chen
 - Hui Huang
 links:
   # Paper: 
