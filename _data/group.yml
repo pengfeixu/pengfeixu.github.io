@@ -1,35 +1,17 @@
 
 
 students:
-- name: Xin Hu
-  program: Master
-  period: 2022 - present
+- name: Hongliang Yang
+  program: PhD
+  period: 2023 - present (Master-PhD program)
   interest: Computer Graphics
-  portrait: /assets/images/photos/huxin.jpg
+  portrait: /assets/images/photos/hongliang.jpg
 
-- name: Jialuo Li
-  program: Master
-  period: 2022 - present
+- name: Jin Zhou
+  program: PhD
+  period: 2023 - present (Master-PhD program)
   interest: Computer Graphics
-  portrait: /assets/images/photos/jialuo.jpg
-
-- name: Yijie Li
-  program: Master
-  period: 2022 - present
-  interest: Computer Graphics
-  portrait: /assets/images/photos/yijie.jpg
-
-- name: Yi Zhou
-  program: Master
-  period: 2022 - present
-  interest: Computer Graphics
-  portrait: /assets/images/photos/zhouyi.jpg
-
-- name: Mu Liang
-  program: Master
-  period: 2021 - present
-  interest: Computer Graphics
-  portrait: /assets/images/photos/liangmu.jpg
+  portrait: /assets/images/photos/zhoujin.jpg
 
 - name: Junquan Ren
   program: Master
@@ -42,18 +24,6 @@ students:
   period: 2023 - present
   interest: Computer Graphics
   portrait: /assets/images/photos/zefan.jpg
-
-- name: Hongliang Yang
-  program: Master
-  period: 2023 - present
-  interest: Computer Graphics
-  portrait: /assets/images/photos/hongliang.jpg
-
-- name: Jin Zhou
-  program: Master
-  period: 2023 - present
-  interest: Computer Graphics
-  portrait: /assets/images/photos/zhoujin.jpg
 
 - name: Peinan Lin
   program: Master
@@ -128,3 +98,38 @@ alumni:
   program: Master
   period: 2021 - 2024
   work: Huya
+
+- name: Xin Hu
+  program: Master
+  period: 2022 - 2025
+  work: ByteDance
+  interest: Computer Graphics
+  portrait: /assets/images/photos/huxin.jpg
+
+- name: Jialuo Li
+  program: Master
+  period: 2022 - 2025
+  work: Huawei
+  interest: Computer Graphics
+  portrait: /assets/images/photos/jialuo.jpg
+
+- name: Yijie Li
+  program: Master
+  period: 2022 - 2025
+  work: Huawei
+  interest: Computer Graphics
+  portrait: /assets/images/photos/yijie.jpg
+
+- name: Yi Zhou
+  program: Master
+  period: 2022 - 2025
+  work: Ctrip
+  interest: Computer Graphics
+  portrait: /assets/images/photos/zhouyi.jpg
+
+- name: Mu Liang
+  program: Master
+  period: 2021 - 2025
+  work: Pursuing Ph.D. at École Centrale de Lyon
+  interest: Computer Graphics
+  portrait: /assets/images/photos/liangmu.jpg
