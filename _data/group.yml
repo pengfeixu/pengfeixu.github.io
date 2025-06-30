@@ -2,14 +2,14 @@
 
 students:
 - name: Hongliang Yang
-  program: PhD
-  period: 2023 - present (Master-PhD program)
+  program: Master-PhD
+  period: 2023 - present 
   interest: Computer Graphics
   portrait: /assets/images/photos/hongliang.jpg
 
 - name: Jin Zhou
-  program: PhD
-  period: 2023 - present (Master-PhD program)
+  program: Master-PhD
+  period: 2023 - present
   interest: Computer Graphics
   portrait: /assets/images/photos/zhoujin.jpg
 
@@ -130,6 +130,6 @@ alumni:
 - name: Mu Liang
   program: Master
   period: 2021 - 2025
-  work: Pursuing Ph.D. at École Centrale de Lyon
+  work: École Centrale de Lyon (PhD)
   interest: Computer Graphics
   portrait: /assets/images/photos/liangmu.jpg
