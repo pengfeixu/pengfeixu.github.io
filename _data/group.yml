@@ -43,6 +43,42 @@ students:
   interest: Computer Graphics
   portrait: /assets/images/photos/wuhao.jpg
 
+- name: Yanzhao Dong
+  program: Master
+  period: 2025 - present
+  interest: Computer Graphics
+  portrait: /assets/images/photos/dongyanzhao.jpg
+
+- name: Yanjing Xu
+  program: Master
+  period: 2025 - present
+  interest: Computer Graphics
+  portrait: /assets/images/photos/portrait.jpg
+
+- name: Junfeng Liang
+  program: Master
+  period: 2025 - present
+  interest: Computer Graphics
+  portrait: /assets/images/photos/liangjunfeng.jpg
+
+- name: Anhang Zhang
+  program: Master
+  period: 2025 - present
+  interest: Computer Graphics
+  portrait: /assets/images/photos/zhanganhang.jpg
+
+- name: Xu Wang
+  program: Master
+  period: 2025 - present
+  interest: Computer Graphics
+  portrait: /assets/images/photos/wangxu.jpg
+
+- name: Zhixian Xu
+  program: Master
+  period: 2025 - present
+  interest: Computer Graphics
+  portrait: /assets/images/photos/xuzhixian.jpg
+
 alumni:
 - name: Guohang Yan
   program: Master
