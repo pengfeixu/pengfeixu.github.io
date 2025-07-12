@@ -67,12 +67,6 @@ students:
   interest: Computer Graphics
   portrait: /assets/images/photos/zhanganhang.jpg
 
-- name: Xu Wang
-  program: Master
-  period: 2025 - present
-  interest: Computer Graphics
-  portrait: /assets/images/photos/wangxu.jpg
-
 - name: Zhixian Xu
   program: Master
   period: 2025 - present
