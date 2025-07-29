@@ -74,61 +74,6 @@ students:
   portrait: /assets/images/photos/xuzhixian.jpg
 
 alumni:
-- name: Guohang Yan
-  program: Master
-  period: 2016 - 2019
-  work: Shanghai AI Lab
-
-- name: Jianhong Yuan
-  program: Master
-  period: 2016 - 2019
-  work: Bank of China
-  remark: Co-supervised by Prof. Hui Huang
-
-- name: Jianqiang Ding
-  program: Master
-  period: 2017 - 2020
-  work: Chinese Academy of Sciences
-  remark: Co-supervised by Prof. Hui Huang
-
-- name: Yingjin Li
-  program: Master
-  period: 2017 - 2020
-  work: Entrepreneurship
-  remark: Co-supervised by Prof. Hui Huang
-
-- name: Zhuoyue Chen
-  program: Master
-  period: 2018 - 2021
-  work: Kwai
-
-- name: Zhijin Yang
-  program: Master
-  period: 2020 - 2023
-  work: Choho Tech
-  honor: National scholarship
-
-- name: Yifan Li
-  program: Master
-  period: 2020 - 2023
-  work: Bank of Communications
-  honor: Outstanding graduate
-
-- name: Zhonghao Cao
-  program: Master
-  period: 2021 - 2024
-  work: Bank of China
-
-- name: Banhuai Ruan
-  program: Master
-  period: 2021 - 2024
-  work: Xiaomi
-
-- name: Weiran Shi
-  program: Master
-  period: 2021 - 2024
-  work: Huya
-
 - name: Xin Hu
   program: Master
   period: 2022 - 2025
@@ -163,3 +108,68 @@ alumni:
   work: École Centrale de Lyon (PhD)
   interest: Computer Graphics
   portrait: /assets/images/photos/liangmu.jpg
+
+- name: Zhonghao Cao
+  program: Master
+  period: 2021 - 2024
+  work: Bank of China
+
+- name: Banhuai Ruan
+  program: Master
+  period: 2021 - 2024
+  work: Xiaomi
+
+- name: Weiran Shi
+  program: Master
+  period: 2021 - 2024
+  work: Huya
+
+- name: Zhijin Yang
+  program: Master
+  period: 2020 - 2023
+  work: Choho Tech
+  honor: National scholarship
+
+- name: Yifan Li
+  program: Master
+  period: 2020 - 2023
+  work: Bank of Communications
+  honor: Outstanding graduate
+
+- name: Zhuoyue Chen
+  program: Master
+  period: 2018 - 2021
+  work: Kwai
+
+- name: Jianqiang Ding
+  program: Master
+  period: 2017 - 2020
+  work: Chinese Academy of Sciences
+  remark: Co-supervised by Prof. Hui Huang
+
+- name: Yingjin Li
+  program: Master
+  period: 2017 - 2020
+  work: Entrepreneurship
+  remark: Co-supervised by Prof. Hui Huang
+
+- name: Guohang Yan
+  program: Master
+  period: 2016 - 2019
+  work: Shanghai AI Lab
+
+- name: Jianhong Yuan
+  program: Master
+  period: 2016 - 2019
+  work: Bank of China
+  remark: Co-supervised by Prof. Hui Huang
+
+
+
+
+
+
+
+
+
+
