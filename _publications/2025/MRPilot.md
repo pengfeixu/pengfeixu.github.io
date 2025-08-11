@@ -15,5 +15,5 @@ authors:
 links:
   # Paper: 
   # Project: 
-  # Code: https://github.com/Teagrus/StructLayoutFormer
+  # Code: 
 ---
