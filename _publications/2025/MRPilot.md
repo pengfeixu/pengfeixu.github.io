@@ -14,6 +14,6 @@ authors:
 - Hui Huang
 links:
   # Paper: 
-  # Project: 
+  Project: https://qiuhong-1202.github.io/MRPilot/
   # Code: 
 ---
