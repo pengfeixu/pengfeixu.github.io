@@ -13,7 +13,7 @@ authors:
 - Hongbo Fu
 - Hui Huang
 links:
-  # Paper: 
+  Paper: /assets/files/StructLayoutFormer.pdf
   # Project: 
   Code: https://github.com/Teagrus/StructLayoutFormer
 ---
