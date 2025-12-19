@@ -13,6 +13,6 @@ authors:
 - Hui Huang
 links:
   # Paper: 
-  # Project: 
+  Project: https://doudin404.github.io/SPLICE-page/
   # Code: 
 ---
