@@ -18,5 +18,6 @@ authors:
   - Zefan Shao
   - Hui Huang
 links:
+  Paper: https://onlinelibrary.wiley.com/doi/10.1111/cgf.15236?af=R
   Code: https://github.com/WWalter-Lee/GLTScene
 ---

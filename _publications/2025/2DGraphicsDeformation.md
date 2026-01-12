@@ -11,6 +11,6 @@ authors:
 - Pengfei Xu#
 - Hui Huang
 links:
-  # Paper: 
+  Paper: https://www.jcad.cn/en/article/doi/10.3724/SP.J.1089.2024-00490
   # Project: 
 ---

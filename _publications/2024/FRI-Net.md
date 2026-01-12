@@ -19,5 +19,6 @@ authors:
   - Hui Huang
   - Ruizhen Hu
 links:
+  Paper: https://arxiv.org/abs/2407.10687
   Code: https://github.com/Daisy-1227/FRI-Net
 ---
