@@ -13,7 +13,7 @@ authors:
 - Pengfei Xu
 - Hongbo FU
 links:
-  Paper: https://arxiv.org/pdf/2502.04983 
+  Paper: https://ieeexplore.ieee.org/document/11410096/
   # Project: 
   # Code: 
 ---
