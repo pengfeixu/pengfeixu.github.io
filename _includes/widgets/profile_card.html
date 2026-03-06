@@ -51,7 +51,8 @@
                         <br/>
 
                         <a class="pr-3 no-break" href="mailto:{{ site.data.profile.email | encode_email }}">
-                            <i class="fa fa-envelope"></i> <span class="email-text">{{ site.data.profile.email | replace: "@", "(at)" }}</span>
+                            {% comment %} <i class="fa fa-envelope"></i> <span class="email-text">{{ site.data.profile.email | replace: "@", "(at)" }}</span> {% endcomment %}
+                            <i class="fa fa-envelope"></i> Email
                         </a>
 
                         {% if site.data.profile.gscholar %}
