@@ -17,5 +17,6 @@ authors:
   - Youyi Zheng
   - Hui Huang
 links:
+  Paper: https://ieeexplore.ieee.org/abstract/document/11368715
   Code: https://github.com/BHR7/SketchformerPlus
 ---

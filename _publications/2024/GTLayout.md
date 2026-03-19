@@ -18,5 +18,6 @@ authors:
   - Hongbo Fu
   - Hui Huang
 links:
+  Paper: https://ieeexplore.ieee.org/abstract/document/11429528
   Code: https://github.com/Warren-swr/GT-Layout
 ---
