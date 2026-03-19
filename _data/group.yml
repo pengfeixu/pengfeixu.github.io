@@ -9,6 +9,7 @@ students:
   portrait: /assets/images/photos/hongliang.jpg
 
 - name: Jin Zhou
+  homepage: https://doudin404.github.io/
   program: Master-PhD
   period: 2023 - present
   interest: Computer Graphics
@@ -104,6 +105,7 @@ alumni:
   portrait: /assets/images/photos/zhouyi.jpg
 
 - name: Mu Liang
+  homepage: https://liangmu8479.github.io/
   program: Master
   period: 2021 - 2025
   work: École Centrale de Lyon (PhD)

@@ -14,6 +14,6 @@ authors:
 - Hui Huang
 links:
   Paper: /assets/files/StructLayoutFormer.pdf
-  # Project: 
+  Project: https://vcc.tech/research/2025/StructLayoutFormer
   Code: https://github.com/Teagrus/StructLayoutFormer
 ---
