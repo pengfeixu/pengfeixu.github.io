@@ -2,6 +2,11 @@
 <div style="text-align: center; margin-bottom: 10px; display: inline-block; margin-right: 10px; min-width: 100px;">
     <img src="{{item.portrait | relative_url}}" alt="{{item.name}}" style="width: 140px; height: 140px; border-radius: 10%;">
     <div style="text-align: center; font-size: 12px;">
+      {% if item.homepage %}
+        <p style="margin: 2px 0; font-size: 15px"><a  href={{item.homepage}}> {{item.name}}</a></p>
+      {% else %}
+        <p style="margin: 2px 0; font-size: 15px">{{item.name}}</p>
+      {% endif %}
       <p style="margin: 2px 0; font-size: 15px">{{item.name}}</p>
       <p style="margin: 0px 0;">{{item.program}}</p>
       <p style="margin: 0px 0;">{{item.period}}</p>
