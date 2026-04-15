@@ -12,7 +12,7 @@ authors:
 - Hongliang Yang
 - Pengfei Xu#
 links:
-  # Paper: 
-  # Project: 
+  Paper: https://kettlae.github.io/SCORE-page/static/pdfs/SCORE.pdf
+  Project: https://kettlae.github.io/SCORE-page/
   # Code: 
 ---
