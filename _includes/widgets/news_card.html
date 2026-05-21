@@ -1,7 +1,7 @@
 
 {% assign sorted_news = site.news | sort: "date" | reverse %}
 {% assign topk_news = sorted_news | slice: 0, 5 %}
-{% assign news_by_year = top3_news | group_by_exp: "item", "item.date | date: '%Y'" %}
+{% assign news_by_year = topk_news | group_by_exp: "item", "item.date | date: '%Y'" %}
 {% comment %} {% assign news_by_year2 = site.news | sort: "date" | reverse | group_by_exp: "item", "item.date | date: '%Y'" -%} {% endcomment %}
 
 <div class="my-3 bg-white shadow-sm rounded-sm">
