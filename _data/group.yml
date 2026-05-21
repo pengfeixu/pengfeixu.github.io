@@ -5,7 +5,7 @@ students:
   homepage: https://qiuhong-1202.github.io/
   program: Master-PhD
   period: 2023 - present 
-  interest: Computer Graphics
+  interest: HCI
   portrait: /assets/images/photos/hongliang.jpg
 
 - name: Jin Zhou
@@ -26,12 +26,6 @@ students:
   period: 2023 - present
   interest: Computer Graphics
   portrait: /assets/images/photos/zefan.jpg
-
-- name: Peinan Lin
-  program: Master
-  period: 2024 - present
-  interest: Computer Graphics
-  portrait: /assets/images/photos/peinan.jpg
 
 - name: Tianci Shi
   program: Master
