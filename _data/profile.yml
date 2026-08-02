@@ -40,17 +40,17 @@ portrait_caption: >-
 education:
 - name: HKUST
   logo: /assets/images/badges/HKUST.png
-  position: PhD in CSE
+  position: PhD in Computer Science and Engineering
   date: Feb. 2012 - Jan. 2015
 
 - name: HKUST
   logo: /assets/images/badges/HKUST.png
-  position: MPhil in CSE
+  position: MPhil in Computer Science and Engineering
   date: Feb. 2010 - Jan. 2012
 
 - name: Zhejiang University
   logo: /assets/images/badges/ZJU.png
-  position: B.S. in Mathmatics
+  position: B.S. in Mathematics
   date: Sep. 2005 - Jul. 2009
 
 experience:
@@ -62,7 +62,7 @@ experience:
 
 - name: Shenzhen University
   logo: /assets/images/badges/SZU.png
-  position: Assitant Professor, Associate Researcher  
+  position: Assistant Professor, Associate Researcher  
   date: Apr. 2016 - Jul. 2023
 
 - name: HKUST
