@@ -7,8 +7,7 @@ pub_date:       "2026"
 # abstract: >-
 cover:          /assets/images/covers/InteractivePacking.gif
 authors:
-- Jin Zhou
-- Yi Zhou
+- Mu Liang
 - Pengfei Xu#
 - Hui Huang
 links:
