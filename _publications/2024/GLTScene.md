@@ -2,7 +2,7 @@
 title:          "GLTScene: Global-to-Local Transformers for Indoor Scene Synthesis with General Room Boundaries"
 date:           2024-09-27 00:01:00 +0800
 selected:       true
-pub:            "Computer Graphics Forum (Proceedings of Pacific Graphics 2024)"
+pub:            "Computer Graphics Forum (Proceedings of Pacific Graphics)"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
 # pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'

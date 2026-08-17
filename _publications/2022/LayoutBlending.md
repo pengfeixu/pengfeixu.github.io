@@ -2,7 +2,7 @@
 title:          "Hierarchical Layout Blending with Recursive Optimal Correspondence"
 date:           2022-11-01 00:01:00 +0800
 selected:       true
-pub:            "ACM Transactions on Graphics (Proceedings of SIGGRAPH Asia 2022)"
+pub:            "ACM Transactions on Graphics (Proceedings of SIGGRAPH Asia)"
 pub_date:       "2022"
 # abstract: >-
 cover:          /assets/images/covers/layoutblending.jpg
