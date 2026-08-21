@@ -13,6 +13,6 @@ authors:
 - Hui Huang
 links:
   #Paper: https://dl.acm.org/doi/10.1145/3742413.3789058
-  #Project: https://jensen3ren.github.io/AutoStructGUI/
+  Project: https://doudin404.github.io/SketchFlow/
   # Code: 
 ---
