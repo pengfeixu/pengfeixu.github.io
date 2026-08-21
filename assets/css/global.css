@@ -1,8 +1,33 @@
 @charset "utf-8";
+:root {
+    --site-accent: #006f8e;
+    --site-text: #24313d;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Lato", sans-serif;
     font-weight: 400;
     padding-top: 5.0rem;
+    color: var(--site-text);
+}
+
+a {
+    color: var(--site-accent);
+}
+
+a:hover {
+    color: #004e65;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible {
+    outline: 3px solid rgba(0, 111, 142, 0.35);
+    outline-offset: 2px;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -27,6 +52,27 @@ h1, h2, h3, h4, h5, h6,
 
 .navbar {
     opacity: 0.95;
+}
+
+#Publications,
+#Grants,
+#Group {
+    scroll-margin-top: 5.5rem;
+}
+
+.publication-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.publication-toolbar {
+    background: #fbfcfd;
+}
+
+.publication-entry[hidden] {
+    display: none !important;
 }
 
 .inline-badge {
@@ -63,5 +109,22 @@ img.lazy {
 
 .email-text {
     font-family: Courier, monospace;
+}
+
+@media (max-width: 767.98px) {
+    body {
+        padding-top: 4.5rem;
+    }
+
+    .publication-heading {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 0.25rem;
+    }
+
+    .publication-entry-mobile .card-img {
+        max-height: 240px;
+        object-fit: cover;
+    }
 }
 

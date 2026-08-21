@@ -1,8 +1,19 @@
 {% assign publications = include.publications %}
-<div class="my-3 p-0 bg-white shadow-sm rounded-sm">
-    <h4 class="border-bottom border-gray p-3 mb-0" id="Publications">
-        {{ include.title }} 
-    </h4>
+<section class="my-3 p-0 bg-white shadow-sm rounded-sm" id="Publications" aria-labelledby="publications-heading">
+    <div class="publication-heading border-bottom border-gray p-3">
+        <h4 class="mb-0" id="publications-heading">{{ include.title }}</h4>
+        <span class="text-muted small" id="publication-count">{{ publications.size }} publications</span>
+    </div>
+    <div class="publication-toolbar px-3 py-2 border-bottom border-gray">
+        <label class="sr-only" for="publication-search">Search publications</label>
+        <div class="input-group input-group-sm">
+            <input id="publication-search" class="form-control" type="search" placeholder="Search by title, author, venue, or year" autocomplete="off">
+            <div class="input-group-append">
+                <button class="btn btn-outline-secondary" type="button" id="publication-search-clear" hidden>Clear</button>
+            </div>
+        </div>
+    </div>
+    <p class="publication-empty text-muted text-center py-4 mb-0" id="publication-empty" hidden>No publications match your search.</p>
 
     {% for item in publications %}
         {% include widgets/publication_item.html item=item %}
@@ -15,7 +26,7 @@
             {% endfor %}
         </div>
     {% endfor %} -->
-</div>
+</section>
 
 <!-- <h3 class="pt-4" id="Publications">Publications</h3>
 {% for year in pubs_by_year %}
