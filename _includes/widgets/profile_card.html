@@ -58,12 +58,6 @@
                             <i class="fa fa-envelope"></i> Email
                         </a>
 
-                        {% if site.data.profile.email2 %}
-                        <a class="pr-3 no-break" href="mailto:{{ site.data.profile.email2 | encode_email }}">
-                            <i class="fa fa-envelope"></i> University Email
-                        </a>
-                        {% endif %}
-
                         {% if site.data.profile.gscholar %}
                         <a class="pr-3 no-break" target="_blank" rel="noopener noreferrer" href="https://scholar.google.com/citations?user={{ site.data.profile.gscholar }}&hl=en">
                             <i class="fab fa-google-scholar"></i> Google Scholar
