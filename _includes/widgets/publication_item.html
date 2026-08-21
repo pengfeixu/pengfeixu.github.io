@@ -1,6 +1,11 @@
 {% assign item = include.item %}
-{% capture publication_search %}{{ item.title }} {{ item.authors | join: ' ' }} {{ item.pub }} {{ item.pub_date | default: item.date | date: '%Y' }}{% endcapture %}
-<div class="publication-entry publication-entry-desktop d-none d-md-block" data-publication-search="{{ publication_search | strip_newlines | escape }}">
+{% if item.pub_date %}
+{% assign publication_year = item.pub_date %}
+{% else %}
+{% assign publication_year = item.date | date: '%Y' %}
+{% endif %}
+{% capture publication_search %}{{ item.title }} {{ item.authors | join: ' ' }} {{ item.pub }}{% endcapture %}
+<div class="publication-entry publication-entry-desktop d-none d-md-block" data-publication-search="{{ publication_search | strip_newlines | escape }}" data-publication-year="{{ publication_year | escape }}">
     <div class="row no-gutters border-bottom border-gray">
         {%- if item.cover -%}
         <div class="col-md-3 col-xl-2 mb-md-0 p-md-3">
@@ -29,7 +34,7 @@
     </div>
 </div>
 
-<div class="publication-entry publication-entry-mobile card w-100 d-md-none border-top-0 border-right-0 border-left-0 rounded-0" data-publication-search="{{ publication_search | strip_newlines | escape }}">
+<div class="publication-entry publication-entry-mobile card w-100 d-md-none border-top-0 border-right-0 border-left-0 rounded-0" data-publication-search="{{ publication_search | strip_newlines | escape }}" data-publication-year="{{ publication_year | escape }}">
     {%- if item.cover -%}
     <img data-src="{{ item.cover | relative_url }}" alt="{{ item.title }}" class="lazy card-img w-100" src="{{ '/assets/images/empty_300x200.png' | relative_url }}" decoding="async">
     {%- else -%}

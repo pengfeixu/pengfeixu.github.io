@@ -4,27 +4,24 @@ function initializePublicationSearch() {
     if (!search) return
 
     const entries = Array.from(document.querySelectorAll('.publication-entry'))
-    const desktopEntries = Array.from(document.querySelectorAll('.publication-entry-desktop'))
-    const count = document.getElementById('publication-count')
     const empty = document.getElementById('publication-empty')
     const clear = document.getElementById('publication-search-clear')
 
     function updatePublicationSearch() {
         const query = search.value.trim().toLowerCase()
-        let matches = 0
+        const isYearSearch = /^\d{4}$/.test(query)
+        let hasMatches = false
 
         entries.forEach(function (entry) {
             const searchableText = entry.dataset.publicationSearch || ''
-            const visible = !query || searchableText.toLowerCase().includes(query)
+            const visible = isYearSearch
+                ? entry.dataset.publicationYear === query
+                : !query || searchableText.toLowerCase().includes(query)
             entry.hidden = !visible
+            hasMatches = hasMatches || visible
         })
 
-        desktopEntries.forEach(function (entry) {
-            if (!entry.hidden) matches += 1
-        })
-
-        count.textContent = query ? `${matches} of ${desktopEntries.length} publications` : `${desktopEntries.length} publications`
-        empty.hidden = matches !== 0
+        empty.hidden = hasMatches
         clear.hidden = !query
     }
 
