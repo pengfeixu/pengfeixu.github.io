@@ -15,14 +15,6 @@ body {
     color: var(--site-text);
 }
 
-a {
-    color: var(--site-accent);
-}
-
-a:hover {
-    color: #004e65;
-}
-
 a:focus-visible,
 button:focus-visible,
 input:focus-visible {
