@@ -15,6 +15,42 @@
     <meta property="og:image" content="{{ site.data.profile.portrait_url | absolute_url }}">
     <meta name="twitter:card" content="summary">
 
+    <!-- JSON-LD structured data for SEO -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "{{ site.data.profile.primary_name }}",
+        "url": "{{ '/' | absolute_url }}",
+        "image": "{{ site.data.profile.portrait_url | absolute_url }}",
+        "jobTitle": "{{ site.data.profile.positions.first.name | split: '@' | first | strip }}",
+        "affiliation": {
+            "@type": "Organization",
+            "name": "Shenzhen University",
+            "url": "https://www.szu.edu.cn"
+        },
+        "email": "mailto:{{ site.data.profile.email }}",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "{{ site.data.profile.address }}",
+            "addressCountry": "CN"
+        },
+        "alumniOf": [
+            {
+                "@type": "CollegeOrUniversity",
+                "name": "The Hong Kong University of Science and Technology"
+            },
+            {
+                "@type": "CollegeOrUniversity",
+                "name": "Zhejiang University"
+            }
+        ],
+        "sameAs": [
+            "https://scholar.google.com/citations?user={{ site.data.profile.gscholar }}"
+        ]
+    }
+    </script>
+
     <!-- Favicon -->
     <link rel="icon" href="{{ '/assets/images/etc/favicon.svg' | relative_url }}" type="image/svg+xml" sizes="any">
     <meta name="theme-color" content="#006f8e">

@@ -5,7 +5,7 @@ selected:       true
 pub:            "Proceedings of SIGGRAPH Asia"
 pub_date:       "2026"
 # abstract: >-
-cover:          /assets/images/covers/SketchFlow.gif
+cover:          /assets/images/covers/SketchFlow.webp
 authors:
 - Jin Zhou*
 - Hongliang Yang*

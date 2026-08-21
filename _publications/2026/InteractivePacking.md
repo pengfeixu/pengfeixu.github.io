@@ -5,7 +5,7 @@ selected:       true
 pub:            "Journal of Shandong University (CCF CAD/CG 2025, in Chinese)"
 pub_date:       "2026"
 # abstract: >-
-cover:          /assets/images/covers/InteractivePacking.gif
+cover:          /assets/images/covers/InteractivePacking.webp
 authors:
 - Mu Liang
 - Pengfei Xu#
