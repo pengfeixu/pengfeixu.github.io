@@ -1,6 +1,6 @@
 ---
 title:          "SketchFlow: Zero-Shot Vector Sketch Generation via GMM Prior Flow in CLIP Latent Space"
-date:           2026-8-14 00:01:00 +0800
+date:           2026-08-14 00:01:00 +0800
 selected:       true
 pub:            "Proceedings of SIGGRAPH Asia"
 pub_date:       "2026"

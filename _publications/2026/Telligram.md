@@ -1,6 +1,6 @@
 ---
 title:          "Telligram: Text-Driven Calligram Generation via Diffusion-Guided Skeleton Optimization"
-date:           2026-8-16 00:01:00 +0800
+date:           2026-08-16 00:01:00 +0800
 selected:       true
 pub:            "Computer Graphics Forum (Proceedings of Pacific Graphics)"
 pub_date:       "2026"

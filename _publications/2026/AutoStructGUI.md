@@ -1,6 +1,6 @@
 ---
 title:          "AutoStructGUI: Bridging Design and Implementation of GUI through Structured Layout Generation"
-date:           2026-1-12 00:01:00 +0800
+date:           2026-01-12 00:01:00 +0800
 selected:       true
 pub:            "Annual ACM Conference on Intelligent User Interfaces"
 pub_date:       "2026"

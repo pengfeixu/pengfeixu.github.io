@@ -1,6 +1,6 @@
 ---
 title:          "Interactive Element Packing for Animation"
-date:           2026-5-15 00:01:00 +0800
+date:           2026-05-15 00:01:00 +0800
 selected:       true
 pub:            "Journal of Shandong University (CCF CAD/CG 2025, in Chinese)"
 pub_date:       "2026"

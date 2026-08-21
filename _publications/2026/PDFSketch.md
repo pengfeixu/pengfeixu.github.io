@@ -1,6 +1,6 @@
 ---
 title:          "PDF-Sketch: Layout-based Sketch Generation via Primitive Distance Fields and Discrete Diffusion"
-date:           2026-5-20 00:01:00 +0800
+date:           2026-05-20 00:01:00 +0800
 selected:       true
 pub:            "Journal of Graphics (CCF CAD/CG 2025, in Chinese)"
 pub_date:       "2026"

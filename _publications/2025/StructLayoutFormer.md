@@ -1,6 +1,6 @@
 ---
 title:          "StructLayoutFormer: Conditional Structured Layout Generation via Structure Serialization and Disentanglement"
-date:           2025-5-16 00:01:00 +0800
+date:           2025-05-16 00:01:00 +0800
 selected:       true
 pub:            "IEEE Transactions on Visualization and Computer Graphics"
 pub_date:       "2025"
