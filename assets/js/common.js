@@ -1,17 +1,5 @@
 // aHR0cHM6Ly9naXRodWIuY29tL2x1b3N0MjYvYWNhZGVtaWMtaG9tZXBhZ2U=
-$(function () {
-    $('.lazy').Lazy({
-        scrollDirection: 'vertical',
-        effect: 'fadeIn',
-        effectTime: 300,
-        visibleOnly: true,
-        placeholder: "",
-        onError: function(element) {
-            console.log('[lazyload] Error loading ' + element.data('src'));
-        }
-    })
-    $('[data-toggle="tooltip"]').tooltip()
-
+function initializePublicationSearch() {
     const search = document.getElementById('publication-search')
     if (!search) return
 
@@ -26,7 +14,8 @@ $(function () {
         let matches = 0
 
         entries.forEach(function (entry) {
-            const visible = !query || entry.dataset.publicationSearch.toLowerCase().includes(query)
+            const searchableText = entry.dataset.publicationSearch || ''
+            const visible = !query || searchableText.toLowerCase().includes(query)
             entry.hidden = !visible
         })
 
@@ -45,4 +34,31 @@ $(function () {
         updatePublicationSearch()
         search.focus()
     })
-})
+}
+
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initializePublicationSearch)
+} else {
+    initializePublicationSearch()
+}
+
+if (window.jQuery) {
+    window.jQuery(function ($) {
+        if ($.fn.Lazy) {
+            $('.lazy').Lazy({
+                scrollDirection: 'vertical',
+                effect: 'fadeIn',
+                effectTime: 300,
+                visibleOnly: true,
+                placeholder: '',
+                onError: function (element) {
+                    console.log('[lazyload] Error loading ' + element.data('src'))
+                }
+            })
+        }
+
+        if ($.fn.tooltip) {
+            $('[data-toggle="tooltip"]').tooltip()
+        }
+    })
+}
