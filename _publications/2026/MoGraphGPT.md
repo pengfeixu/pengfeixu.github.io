@@ -5,7 +5,7 @@ selected:       true
 pub:            "IEEE Transactions on Visualization and Computer Graphics"
 pub_date:       "2026"
 # abstract: >-
-cover:          /assets/images/covers/mographgpt.jpg
+cover:          /assets/images/covers/mographgpt-small.jpg
 authors:
 - Hui Ye
 - Chufeng Xiao

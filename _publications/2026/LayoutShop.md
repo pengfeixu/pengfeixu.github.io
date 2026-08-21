@@ -5,7 +5,7 @@ selected:       true
 pub:            "Proceedings of Pacific Graphics"
 pub_date:       "2026"
 # abstract: >-
-cover:          /assets/images/covers/LayoutShop_s.jpg
+cover:          /assets/images/covers/LayoutShop_s-small.jpg
 authors:
 - Jialuo Li
 - Pengfei Xu#

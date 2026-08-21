@@ -5,7 +5,7 @@ selected:       true
 pub:            "ACM Transactions on Graphics (Proceedings of SIGGRAPH)"
 pub_date:       "2021"
 # abstract: >-
-cover:          /assets/images/covers/wireroom.jpg
+cover:          /assets/images/covers/wireroom-small.jpg
 authors:
 - Zhijin Yang
 - Pengfei Xu#

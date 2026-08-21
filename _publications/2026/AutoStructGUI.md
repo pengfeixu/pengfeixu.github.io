@@ -5,7 +5,7 @@ selected:       true
 pub:            "Annual ACM Conference on Intelligent User Interfaces"
 pub_date:       "2026"
 # abstract: >-
-cover:          /assets/images/covers/AutoStructGUI.png
+cover:          /assets/images/covers/AutoStructGUI-small.jpg
 authors:
 - Junquan Ren
 - Pengfei Xu#

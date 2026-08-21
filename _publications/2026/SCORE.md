@@ -5,7 +5,7 @@ selected:       true
 pub:            "Annual AAAI Conference on Artificial Intelligence"
 pub_date:       "2026"
 # abstract: >-
-cover:          /assets/images/covers/SCORE.png
+cover:          /assets/images/covers/SCORE-small.jpg
 authors:
 - Zefan Shao
 - Jin Zhou

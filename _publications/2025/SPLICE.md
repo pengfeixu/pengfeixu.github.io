@@ -5,7 +5,7 @@ selected:       true
 pub:            "Proceedings of Pacific Graphics"
 pub_date:       "2025"
 # abstract: >-
-cover:          /assets/images/covers/SPLICE.png
+cover:          /assets/images/covers/SPLICE-small.jpg
 authors:
 - Jin Zhou
 - Hongliang Yang

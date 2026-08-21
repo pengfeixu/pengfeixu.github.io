@@ -5,7 +5,7 @@ selected:       true
 pub:            "Journal of Computer-Aided Design and Computer Graphics (in Chinese)"
 pub_date:       "2021"
 # abstract: >-
-cover:          /assets/images/covers/layoutprediction.jpg
+cover:          /assets/images/covers/layoutprediction-small.jpg
 authors:
 - Yingjin Li
 - Pengfei Xu#

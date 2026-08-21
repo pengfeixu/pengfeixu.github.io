@@ -5,7 +5,7 @@ selected:       true
 pub:            "ACM Transactions on Graphics (Proceedings of SIGGRAPH Asia)"
 pub_date:       "2022"
 # abstract: >-
-cover:          /assets/images/covers/layoutblending.jpg
+cover:          /assets/images/covers/layoutblending-small.jpg
 authors:
 - Pengfei Xu
 - Yifan Li

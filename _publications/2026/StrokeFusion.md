@@ -5,7 +5,7 @@ selected:       true
 pub:            "Annual AAAI Conference on Artificial Intelligence"
 pub_date:       "2026"
 # abstract: >-
-cover:          /assets/images/covers/StrokeFusion.png
+cover:          /assets/images/covers/StrokeFusion-small.jpg
 authors:
 - Jin Zhou
 - Yi Zhou

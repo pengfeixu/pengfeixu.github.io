@@ -5,7 +5,7 @@ selected:       true
 pub:            "Journal of Graphics (CCF CAD/CG 2025, in Chinese)"
 pub_date:       "2026"
 # abstract: >-
-cover:          /assets/images/covers/PDF-Sketch.jpeg
+cover:          /assets/images/covers/PDF-Sketch-small.jpg
 authors:
 - Jin Zhou
 - Yi Zhou
