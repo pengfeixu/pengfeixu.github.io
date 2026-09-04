@@ -13,8 +13,7 @@ address: L6-808-B, South Campus, Shenzhen University, China
 
 
 
-email: "xupengfei.cg@gmail.com" 
-email2: "pengfeixu@szu.edu.cn"
+email: "xupengfei.cg@gmail.com"
 # cv_link: link-to-your-cv-file
 gscholar: bmC8UcoAAAAJ
 # github: your_github_id
@@ -33,7 +32,7 @@ short_bio: >-
     I am currently looking for <strong>master</strong> and <strong>PhD</strong> students. Please feel free to contact me if you are interested in my research.
   </p>
 
-portrait_url: /assets/images/photos/XPF_2020_s.png
+portrait_url: /assets/images/photos/XPF_2020_s.jpg
 portrait_caption: >-
   Pengfei Xu, Shenzhen University.
 

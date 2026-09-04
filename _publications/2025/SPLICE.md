@@ -1,11 +1,11 @@
 ---
 title:          "SPLICE: Part-Level 3D Shape Editing from Local Semantic Extraction to Global Neural Mixing"
-date:           2025-8-10 00:01:00 +0800
+date:           2025-08-10 00:01:00 +0800
 selected:       true
 pub:            "Proceedings of Pacific Graphics"
 pub_date:       "2025"
 # abstract: >-
-cover:          /assets/images/covers/SPLICE.png
+cover:          /assets/images/covers/SPLICE-small.jpg
 authors:
 - Jin Zhou
 - Hongliang Yang

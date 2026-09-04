@@ -5,7 +5,7 @@ selected:       true
 pub:            "IEEE Transactions on Visualization and Computer Graphics"
 pub_date:       "2025"
 # abstract: >-
-cover:          /assets/images/covers/GenFODrawing.png
+cover:          /assets/images/covers/GenFoDrawing_small.jpg
 authors:
 - Jiaye Leng
 - Hui Ye

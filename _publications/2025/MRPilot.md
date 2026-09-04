@@ -1,11 +1,11 @@
 ---
 title:          "MRPilot: A Mixed-Reality System for Responsive Navigation of General Procedural Tasks"
-date:           2025-7-28 00:01:00 +0800
+date:           2025-07-28 00:01:00 +0800
 selected:       true
 pub:            "IEEE International Symposium on Mixed and Augmented Reality"
 pub_date:       "2025"
 # abstract: >-
-cover:          /assets/images/covers/MRPilot.png
+cover:          /assets/images/covers/MRPilot-small.jpg
 authors:
 - Hongliang Yang
 - Jin Zhou

@@ -1,6 +1,6 @@
 ---
 title:          "A Schedule-Driven Grammar-Aware Relayout Framework for Power-Grid Topology Diagrams"
-date:           2026-7-6 00:01:00 +0800
+date:           2026-07-06 00:01:00 +0800
 selected:       true
 pub:            "Computer Graphics International"
 pub_date:       "2026"
