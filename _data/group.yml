@@ -15,17 +15,12 @@ students:
   interest: Computer Graphics
   portrait: /assets/images/photos/zhoujin.jpg
 
-- name: Junquan Ren
-  program: Master
-  period: 2023 - present
-  interest: Computer Graphics
-  portrait: /assets/images/photos/junquan.jpg
-
-- name: Zefan Shao
-  program: Master
-  period: 2023 - present
-  interest: Computer Graphics
-  portrait: /assets/images/photos/zefan.jpg
+- name: Sihan Xu
+  homepage: https://doudin404.github.io/
+  program: PhD
+  period: 2026 - present
+  interest: Computer Vision
+  portrait: /assets/images/photos/xusihan.jpg
 
 - name: Tianci Shi
   program: Master
@@ -69,7 +64,57 @@ students:
   interest: Computer Graphics
   portrait: /assets/images/photos/xuzhixian.jpg
 
+- name: Zihang Zeng
+  program: Master
+  period: 2026 - present
+  interest: Computer Graphics
+  portrait: /assets/images/photos/zengzihang.jpg
+
+- name: Yifa Zheng
+  program: Master
+  period: 2026 - present
+  interest: Computer Graphics
+  portrait: /assets/images/photos/zhengyifa.jpg
+
+- name: Wei Li
+  program: Master
+  period: 2026 - present
+  interest: Computer Graphics
+  portrait: /assets/images/photos/liwei.jpg
+
+- name: Yuxi Chen
+  program: Master
+  period: 2026 - present
+  interest: Computer Graphics
+  portrait: /assets/images/photos/chenyuxi.jpg
+
+- name: Siqin Luo
+  program: Master
+  period: 2026 - present
+  interest: Computer Graphics
+  portrait: /assets/images/photos/luosiqin.jpg
+
+- name: Yi Li
+  program: Master
+  period: 2026 - present
+  interest: Computer Graphics
+  portrait: /assets/images/photos/liyi.jpg
+
 alumni:
+- name: Junquan Ren
+  program: Master
+  period: 2023 - present
+  work: Huawei
+  interest: Computer Graphics
+  portrait: /assets/images/photos/junquan.jpg
+
+- name: Zefan Shao
+  program: Master
+  period: 2023 - present
+  work: SZU (RA)
+  interest: Computer Graphics
+  portrait: /assets/images/photos/zefan.jpg
+
 - name: Xin Hu
   program: Master
   period: 2022 - 2025

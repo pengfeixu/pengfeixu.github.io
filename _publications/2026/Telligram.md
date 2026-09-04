@@ -10,7 +10,7 @@ authors:
 - Tianci Shi
 - Pengfei Xu#
 links:
-  # Paper: 
-  # Project: https://doudin404.github.io/SPLICE-page/
+  Paper: https://arxiv.org/abs/2609.02511
+  Project: https://renjialu408.github.io/Telligram/
   # Code: 
 ---
