@@ -10,7 +10,7 @@ authors:
 - Jialuo Li
 - Pengfei Xu#
 links:
-  # Paper: 
+  Paper: https://arxiv.org/abs/2609.05098
   # Project: https://doudin404.github.io/SPLICE-page/
   # Code: 
 ---
