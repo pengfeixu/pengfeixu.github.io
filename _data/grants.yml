@@ -37,7 +37,7 @@
   role: PI
   amount: 2,700,000 RMB
   project: Shenzhen High-Caliber Talent Research Startup Project
-  number: 000347
+  number: "000347"
   period: Jan. 2019 - Dec. 2021
 
 - title: Interactive 3D Layout Creation with 2D Pattern Perception

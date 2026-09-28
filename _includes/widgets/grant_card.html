@@ -1,14 +1,19 @@
-
-
 {% assign grants = include.grants %}
-<div class="my-3 p-0 bg-white shadow-sm rounded-sm">
-    <h4 class="border-bottom border-gray p-3 mb-0" id="Grants">
-        {{ include.title }} 
-    </h4>
-    <br/>
-    
-    {% for item in grants %}
-        {% include widgets/grant_item.html item=item %}
-    {% endfor %}
-    
-</div>
+{% assign total = 0 %}
+{% for item in grants %}
+{% assign amount_value = item.amount | remove: " RMB" | remove: "," | plus: 0 %}
+{% assign total = total | plus: amount_value %}
+{% endfor %}
+{% assign total_m = total | divided_by: 1000000.0 %}
+<section class="my-3 p-0 bg-white shadow-sm rounded-sm" id="Grants" aria-labelledby="grants-heading">
+    <div class="d-flex align-items-baseline justify-content-between flex-wrap border-bottom border-gray p-3">
+        <h4 class="mb-0" id="grants-heading">{{ include.title }}</h4>
+        <span class="text-muted small">{{ grants.size }} projects &middot; &yen;{{ total_m }}M total</span>
+    </div>
+
+    <div class="grant-list p-3">
+        {% for item in grants %}
+            {% include widgets/grant_item.html item=item %}
+        {% endfor %}
+    </div>
+</section>

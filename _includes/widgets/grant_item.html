@@ -1,14 +1,10 @@
-
-
 {% assign item = include.item %}
-    <div class ="row row-no-gutters px-5">
-        <div class = "col-8">
-            <p class="font-weight-normal">{{ item.project }}</p>
-        </div>
-        <div class = "col-1">
-            <p class="font-weight-normal">{{ item.role }}</p>
-        </div>
-        <div class = "col-3 text-align: right">
-            <p class="font-weight-normal">{{ item.period }}</p>
-        </div>
-    </div>
+{% assign start_year = item.period | split: "-" | first | strip | split: " " | last %}
+{% assign end_year = item.period | split: "-" | last | strip | split: " " | last %}
+{% assign grant_tip = item.role %}
+{% if item.amount %}{% assign grant_tip = grant_tip | append: " &middot; " | append: item.amount %}{% endif %}
+{% if item.number %}{% assign grant_tip = grant_tip | append: " &middot; No. " | append: item.number %}{% endif %}
+<div class="grant-row" data-toggle="tooltip" data-placement="top" title="{{ grant_tip }}">
+    <span class="grant-title">{{ item.title }} <span class="grant-agency">&middot; {{ item.project }}</span></span>
+    <span class="grant-years">{{ start_year }}&ndash;{{ end_year }}</span>
+</div>
