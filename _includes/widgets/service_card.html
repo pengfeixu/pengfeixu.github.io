@@ -1,0 +1,84 @@
+{% assign svc = site.data.services %}
+{% assign pc = svc.program_committees %}
+{% assign pc_limit = include.pc_limit | default: 5 %}
+{% assign pc_hidden = pc.size | minus: pc_limit %}
+<section class="my-3 p-0 bg-white shadow-sm rounded-sm" id="Services" aria-labelledby="services-heading">
+    <div class="d-flex align-items-baseline justify-content-between flex-wrap border-bottom p-3">
+        <h2 class="h4 mb-0" id="services-heading">{{ include.title | default: 'Services' }}</h2>
+        <span class="text-muted small">{{ pc.size }} years on program committees &middot; {{ svc.organizations.size }} conferences organized</span>
+    </div>
+
+    {% if svc.editorships %}
+    <div class="p-3">
+        <h3 class="h6 svc-subhead">Editorship</h3>
+        <div class="svc-list">
+            {% for item in svc.editorships %}
+            <div class="svc-row">
+                <div class="svc-name">{{ item.role }}, {{ item.venue }}{% if item.publisher %}<span class="svc-role"> ({{ item.publisher }})</span>{% endif %}</div>
+                <div class="svc-year no-break">Since {{ item.since }}</div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    {% endif %}
+
+    {% if svc.organizations %}
+    <div class="p-3 border-top">
+        <h3 class="h6 svc-subhead">Conference organization</h3>
+        <div class="svc-list">
+            {% for item in svc.organizations %}
+            <div class="svc-row">
+                <div class="svc-name">{{ item.role }}<span class="svc-role"> &middot; {{ item.venue }}</span></div>
+                <div class="svc-year no-break">{{ item.year }}</div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    {% endif %}
+
+    <div class="p-3 border-top">
+        <h3 class="h6 svc-subhead">Program committees</h3>
+        <div class="svc-pc-list">
+            {% for item in pc limit: pc_limit %}
+            <div class="svc-pc-year d-flex border-top">
+                <div class="svc-pc-label">{{ item.year }}</div>
+                <div class="svc-pc-body">
+                    {% for venue in item.venues %}
+                    <span class="svc-venue">{{ venue }}</span>
+                    {% endfor %}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% if pc_hidden > 0 %}
+        <div class="collapse svc-pc-list" id="svc-pc-more">
+            {% for item in pc offset: pc_limit %}
+            <div class="svc-pc-year d-flex border-top">
+                <div class="svc-pc-label">{{ item.year }}</div>
+                <div class="svc-pc-body">
+                    {% for venue in item.venues %}
+                    <span class="svc-venue">{{ venue }}</span>
+                    {% endfor %}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        <button class="svc-toggle btn btn-link btn-sm px-0 mt-1" type="button" data-toggle="collapse" data-target="#svc-pc-more" aria-expanded="false" aria-controls="svc-pc-more">
+            <span class="svc-toggle-more">Show {{ pc_hidden }} earlier years <i class="fas fa-angle-down ml-1" aria-hidden="true"></i></span>
+            <span class="svc-toggle-less">Show fewer <i class="fas fa-angle-up ml-1" aria-hidden="true"></i></span>
+        </button>
+        {% endif %}
+    </div>
+
+    {% if svc.reviewing %}
+    <div class="p-3 border-top">
+        <h3 class="h6 svc-subhead">Reviewing</h3>
+        {% for item in svc.reviewing %}
+        <div class="svc-review mb-2">
+            <div class="svc-name">{{ item.kind }}</div>
+            <div class="svc-review-venues">{{ item.venues }}</div>
+        </div>
+        {% endfor %}
+    </div>
+    {% endif %}
+</section>

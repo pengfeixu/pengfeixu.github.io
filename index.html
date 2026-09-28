@@ -9,40 +9,40 @@ navbar_title: Home
 
 {% include widgets/profile_card.html %}
 
-{% if site.data.display.homepage.show_experience %}
-{% include widgets/experience_card.html %}
-{% endif %}
+{% include widgets/admissions_cta.html %}
 
 {% if site.data.display.homepage.show_news %}
 {% assign count_news = site.news | size %}
 {% if count_news > 0 %}
-{% include widgets/news_card.html %}
+{% include widgets/news_card.html limit=5 show_all_link=true %}
 {% endif %}
 {% endif %}
-
-
-
 
 {% assign pubs = site.publications | sort: "date" | reverse %}
-{% 
-    include widgets/publication_card.html 
+{%
+    include widgets/publication_card.html
     publications=pubs
     title='Publications'
 %}
 
-
-{% assign grt = site.data.grants %}
-{% 
-    include widgets/grant_card.html 
-    grants=grt
-    title='Grants'
-%}
-
 {% assign grp = site.data.group %}
-{% 
-    include widgets/group_card.html 
+{%
+    include widgets/group_card.html
     group=grp
     title='Group'
 %}
 
+{% assign grt = site.data.grants %}
+{%
+    include widgets/grant_card.html
+    grants=grt
+    title='Grants'
+%}
 
+{% if site.data.display.homepage.show_services %}
+{% include widgets/service_card.html title='Services' %}
+{% endif %}
+
+{% if site.data.display.homepage.show_experience %}
+{% include widgets/experience_card.html %}
+{% endif %}

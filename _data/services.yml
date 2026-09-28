@@ -1,0 +1,105 @@
+editorships:
+- venue: Computers &amp; Graphics
+  publisher: Elsevier
+  role: Associate Editor
+  since: 2026
+
+organizations:
+- venue: Computational Visual Media (CVM)
+  role: Sponsorship Chair
+  year: 2025
+
+- venue: Computational Visual Media (CVM)
+  role: Organization Co-chair
+  year: 2023
+
+program_committees:
+- year: 2027
+  venues:
+  - AAAI
+  - IUI
+  - 3DV
+  - CVM
+
+- year: 2026
+  venues:
+  - IUI
+  - AAAI
+  - 3DV
+  - CVM
+  - CGI
+  - CCF CAD/CG
+  - GDC
+  - Chinagraph
+  - SIGGRAPH Asia (Communications and Posters)
+  - PG
+
+- year: 2025
+  venues:
+  - SIGGRAPH Asia (COI Coordinator)
+  - CVM
+  - IUI
+  - Expressive+WICED
+  - CCF CAD/CG
+  - GDC
+  - PG
+  - CGI
+
+- year: 2024
+  venues:
+  - SIGGRAPH Asia (Communications and Posters)
+  - CVM
+  - CASA
+  - GDC
+  - CCF CAD/CG
+  - PG
+  - CGI
+  - Chinagraph
+  - ChinaVR
+
+- year: 2023
+  venues:
+  - CVM
+  - CCF CAD/CG
+  - CGI
+
+- year: 2022
+  venues:
+  - CVM
+  - CCF CAD/CG
+
+- year: 2021
+  venues:
+  - CAD/Graphics
+  - CCF CAD/CG
+
+- year: 2020
+  venues:
+  - CCF CAD/CG
+  - ChinaVR
+
+- year: 2019
+  venues:
+  - CVM
+  - CAD/Graphics
+
+- year: 2018
+  venues:
+  - SIGGRAPH Asia (Technical Briefs and Posters)
+  - PG
+
+- year: 2017
+  venues:
+  - SIGGRAPH Asia (Technical Briefs and Posters)
+  - CAD/Graphics
+
+- year: 2016
+  venues:
+  - SIGGRAPH Asia (Workshops)
+
+reviewing:
+- kind: Conferences
+  venues: SIGGRAPH, SIGGRAPH Asia, CHI, CVPR, ICCV, Pacific Graphics, Graphics Interface, ChinaVR, IUI, 3DV, etc.
+
+- kind: Journals
+  venues: ACM Transactions on Graphics (TOG), IEEE Transactions on Visualization and Computer Graphics (TVCG), IEEE Transactions on Image Processing (TIP), Computer-Aided Geometric Design (CAGD), Computer-Aided Design (CAD), Computers &amp; Graphics (C&amp;G), International Journal of Human-Computer Interaction (IJHCI), The Visual Computer (TVC), Frontiers of Computer Science (FCS), Neurocomputing, etc.
