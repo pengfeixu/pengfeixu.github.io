@@ -11,7 +11,7 @@ authors:
 - Chufeng Xiao
 - Jiaye Leng
 - Pengfei Xu
-- Hongbo FU
+- Hongbo Fu
 links:
   Paper: https://ieeexplore.ieee.org/document/11410096/
   # Project: 
