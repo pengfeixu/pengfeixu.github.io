@@ -96,14 +96,14 @@ students:
 alumni:
 - name: Junquan Ren
   program: Master
-  period: 2023 - present
+  period: 2023 - 2026
   work: Huawei
   interest: Computer Graphics
   portrait: /assets/images/photos/junquan.jpg
 
 - name: Zefan Shao
   program: Master
-  period: 2023 - present
+  period: 2023 - 2026
   work: SZU (RA)
   interest: Computer Graphics
   portrait: /assets/images/photos/zefan.jpg
