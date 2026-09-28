@@ -69,12 +69,6 @@ students:
   interest: Computer Graphics
   portrait: /assets/images/photos/zengzihang.jpg
 
-- name: Yifa Zheng
-  program: Master
-  period: 2026 - present
-  interest: Computer Graphics
-  portrait: /assets/images/photos/zhengyifa.jpg
-
 - name: Wei Li
   program: Master
   period: 2026 - present
