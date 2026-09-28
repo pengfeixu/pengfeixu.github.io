@@ -59,6 +59,12 @@ h1, h2, h3, h4, h5, h6,
     gap: 1rem;
 }
 
+.publication-legend {
+    font-size: 0.7rem;
+    font-weight: 400;
+    white-space: nowrap;
+}
+
 .publication-toolbar {
     background: #fbfcfd;
 }
