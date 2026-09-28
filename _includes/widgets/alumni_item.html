@@ -1,21 +1,15 @@
-
-
 {% assign item = include.item %}
-<div style="text-align: center; vertical-align:top; margin-bottom: 10px; display: inline-block; min-width: 100; margin-right: 5px; margin-left: 5px">    
-    <div style="text-align: center; vertical-align:top; font-size: 12px;">
-      {% if item.homepage %}
-        <p style="margin: 2px 0; font-size: 15px"><a  href={{item.homepage}}> {{item.name}}</a></p>
-      {% else %}
-        <p style="margin: 2px 0; font-size: 15px">{{item.name}}</p>
-      {% endif %}
-      <p style="margin: 0px 0;">{{item.program}}</p>
-      <p style="margin: 0px 0;">{{item.period}}</p>
-      <p style="margin: 0px 0;">{{item.work}}</p>
-      {%- if item.remark -%}
-      <p style="margin: 0px 0;">{{item.remark}}</p>
-      {%- endif -%}
-      {%- if item.honor -%}
-      <p><i class="fa fa-trophy"></i> {{item.honor}}</p>
-      {%- endif -%}      
-    </div>
-</div>
+<span class="group-alum-pill{% if item.honor %} group-alum-pill-honor{% endif %}"{% if item.remark %} data-toggle="tooltip" data-placement="top" title="{{ item.remark }}"{% endif %}>
+    {% if item.homepage %}
+    <a class="group-alum-name" href="{{ item.homepage }}" target="_blank" rel="noopener noreferrer">{{ item.name }}</a>
+    {% else %}
+    <span class="group-alum-name">{{ item.name }}</span>
+    {% endif %}
+    {% if item.honor %}
+    <span class="group-alum-honor" data-toggle="tooltip" data-placement="top" title="{{ item.honor }}" role="img" aria-label="{{ item.honor }}"><i class="fa fa-trophy" aria-hidden="true"></i></span>
+    {% endif %}
+    {% if item.work %}
+    <span class="group-alum-sep" aria-hidden="true">&middot;</span>
+    <span class="group-alum-dest">{{ item.work }}</span>
+    {% endif %}
+</span>

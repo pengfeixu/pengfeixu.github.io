@@ -5,92 +5,109 @@ students:
   homepage: https://qiuhong-1202.github.io/
   program: Master-PhD
   period: 2023 - present 
-  interest: HCI
+  interests:
+    - HCI
+    - XR
   portrait: /assets/images/photos/hongliang.jpg
 
 - name: Jin Zhou
   homepage: https://doudin404.github.io/
   program: Master-PhD
   period: 2023 - present
-  interest: Computer Graphics
+  interests:
+    - CG
+    - AI
   portrait: /assets/images/photos/zhoujin.jpg
 
 - name: Sihan Xu
   program: PhD
   period: 2026 - present
-  interest: Computer Vision
+  interests:
+    - CV
   portrait: /assets/images/photos/xusihan.jpg
 
 - name: Tianci Shi
   program: Master
   period: 2024 - present
-  interest: Computer Graphics
+  interests:
+    - CG
   portrait: /assets/images/photos/tianci.jpg
 
 - name: Hao Wu
   program: Master
   period: 2024 - present
-  interest: Computer Graphics
+  interests:
+    - CG
   portrait: /assets/images/photos/wuhao.jpg
 
 - name: Yanzhao Dong
   program: Master
   period: 2025 - present
-  interest: Computer Graphics
+  interests:
+    - HCI
   portrait: /assets/images/photos/dongyanzhao.jpg
 
 - name: Yanjing Xu
   program: Master
   period: 2025 - present
-  interest: Computer Graphics
+  interests:
+    - CG
   portrait: /assets/images/photos/xuyanjing.jpg
 
 - name: Junfeng Liang
   program: Master
   period: 2025 - present
-  interest: Computer Graphics
+  interests:
+    - HCI
   portrait: /assets/images/photos/liangjunfeng.jpg
 
 - name: Anhang Zhang
   program: Master
   period: 2025 - present
-  interest: Computer Graphics
+  interests:
+    - HCI
   portrait: /assets/images/photos/zhanganhang.jpg
 
 - name: Zhixian Xu
   program: Master
   period: 2025 - present
-  interest: Computer Graphics
+  interests:
+    - CG
   portrait: /assets/images/photos/xuzhixian.jpg
 
 - name: Zihang Zeng
   program: Master
   period: 2026 - present
-  interest: Computer Graphics
+  interests:
+    - CG
   portrait: /assets/images/photos/zengzihang.jpg
 
 - name: Wei Li
   program: Master
   period: 2026 - present
-  interest: Computer Graphics
+  interests:
+    - CG
   portrait: /assets/images/photos/liwei.jpg
 
 - name: Yuxi Chen
   program: Master
   period: 2026 - present
-  interest: Computer Graphics
+  interests:
+    - CG
   portrait: /assets/images/photos/chenyuxi.jpg
 
 - name: Siqin Luo
   program: Master
   period: 2026 - present
-  interest: Computer Graphics
+  interests:
+    - CG
   portrait: /assets/images/photos/luosiqin.jpg
 
 - name: Yi Li
   program: Master
   period: 2026 - present
-  interest: Computer Graphics
+  interests:
+    - CG
   portrait: /assets/images/photos/liyi.jpg
 
 alumni:
@@ -98,42 +115,48 @@ alumni:
   program: Master
   period: 2023 - 2026
   work: Huawei
-  interest: Computer Graphics
+  interests:
+    - CG
   portrait: /assets/images/photos/junquan.jpg
 
 - name: Zefan Shao
   program: Master
   period: 2023 - 2026
   work: SZU (RA)
-  interest: Computer Graphics
+  interests:
+    - CG
   portrait: /assets/images/photos/zefan.jpg
 
 - name: Xin Hu
   program: Master
   period: 2022 - 2025
   work: ByteDance
-  interest: Computer Graphics
+  interests:
+    - CG
   portrait: /assets/images/photos/huxin.jpg
 
 - name: Jialuo Li
   program: Master
   period: 2022 - 2025
   work: Huawei
-  interest: Computer Graphics
+  interests:
+    - CG
   portrait: /assets/images/photos/jialuo.jpg
 
 - name: Yijie Li
   program: Master
   period: 2022 - 2025
   work: Huawei
-  interest: Computer Graphics
+  interests:
+    - CG
   portrait: /assets/images/photos/yijie.jpg
 
 - name: Yi Zhou
   program: Master
   period: 2022 - 2025
   work: Ctrip
-  interest: Computer Graphics
+  interests:
+    - CG
   portrait: /assets/images/photos/zhouyi.jpg
 
 - name: Mu Liang
@@ -141,7 +164,8 @@ alumni:
   program: Master
   period: 2021 - 2025
   work: École Centrale de Lyon (PhD)
-  interest: Computer Graphics
+  interests:
+    - CG
   portrait: /assets/images/photos/liangmu.jpg
 
 - name: Zhonghao Cao

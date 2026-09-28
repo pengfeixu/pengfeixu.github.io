@@ -1,27 +1,36 @@
-
-
 {% assign student = include.group.students %}
 {% assign alumni = include.group.alumni %}
-<div class="my-3 p-0 bg-white shadow-sm rounded-sm">
-    <h4 class="border-bottom border-gray p-3 mb-0" id="Group">
-        {{ include.title }} 
-    </h4>
-    <br/>
-    <h5 class="px-3">
-        Members 
-    </h5>
-    <center>
-    {% for item in student %}
-        {% include widgets/student_item.html item=item %}
-    {% endfor %}
-    </center>
-    <br/>
-    <h5 class="px-3">
-        Alumni 
-    </h5>
-    <center>
-    {% for item in alumni %}
-        {% include widgets/alumni_item.html item=item %}
-    {% endfor %}
-    </center>
-</div>
+<section class="my-3 p-0 bg-white shadow-sm rounded-sm" id="Group" aria-labelledby="group-heading">
+    <div class="group-heading border-bottom border-gray p-3">
+        <h4 class="mb-0" id="group-heading">{{ include.title }}</h4>
+        <span class="text-muted small">{{ student.size }} current members &middot; {{ alumni.size }} alumni</span>
+    </div>
+
+    <div class="p-3">
+        <h6 class="group-subhead">Current members</h6>
+        <div class="row">
+            {% for item in student %}
+            <div class="col-12 col-sm-6 col-md-4 col-xl-3 mb-3">
+                {% include widgets/student_item.html item=item %}
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <div class="p-3 border-top border-gray">
+        <h6 class="group-subhead">Alumni</h6>
+        {% assign alumni_by_year = alumni | group_by_exp: "item", "item.period | split: '-' | last | strip" | sort: "name" | reverse %}
+        <div class="group-year-list">
+            {% for year in alumni_by_year %}
+            <div class="group-year d-flex border-top border-gray">
+                <div class="group-year-label">{{ year.name }}</div>
+                <div class="group-year-body">
+                    {% for item in year.items %}
+                    {% include widgets/alumni_item.html item=item %}
+                    {% endfor %}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>

@@ -1,13 +1,25 @@
 {% assign item = include.item %}
-<div style="text-align: center; margin-bottom: 10px; display: inline-block; margin-right: 10px; min-width: 100px;">
-    <img src="{{item.portrait | relative_url}}" alt="{{item.name}}" style="width: 140px; height: 140px; border-radius: 10%;">
-    <div style="text-align: center; font-size: 12px;">
-      {% if item.homepage %}
-        <p style="margin: 2px 0; font-size: 15px"><a  href={{item.homepage}}> {{item.name}}</a></p>
-      {% else %}
-        <p style="margin: 2px 0; font-size: 15px">{{item.name}}</p>
-      {% endif %}
-      <p style="margin: 0px 0;">{{item.program}}</p>
-      <p style="margin: 0px 0;">{{item.period}}</p>
+{% assign tag_list = item.interests %}
+{% unless tag_list %}
+    {% if item.interest %}
+        {% assign tag_list = item.interest | split: ", " %}
+    {% endif %}
+{% endunless %}
+<div class="group-member d-flex">
+    <img src="{{ item.portrait | relative_url }}" alt="{{ item.name }}" class="group-avatar" width="64" height="64" loading="lazy" decoding="async">
+    <div class="group-member-info">
+        {% if item.homepage %}
+        <p class="mb-0"><a class="group-name" href="{{ item.homepage }}" target="_blank" rel="noopener noreferrer">{{ item.name }}</a></p>
+        {% else %}
+        <p class="mb-0 group-name">{{ item.name }}</p>
+        {% endif %}
+        <p class="mb-0 small text-muted">{{ item.program }} &middot; {{ item.period }}</p>
+        {% if tag_list %}
+        <div class="group-tags">
+            {% for tag in tag_list limit:3 %}
+            <span class="group-tag group-tag-{{ tag | slugify }}">{{ tag }}</span>
+            {% endfor %}
+        </div>
+        {% endif %}
     </div>
 </div>
