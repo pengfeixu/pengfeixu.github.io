@@ -7,7 +7,7 @@
 {% assign total_m = total | divided_by: 1000000.0 %}
 <section class="my-3 p-0 bg-white shadow-sm rounded-sm" id="Grants" aria-labelledby="grants-heading">
     <div class="d-flex align-items-baseline justify-content-between flex-wrap border-bottom border-gray p-3">
-        <h4 class="mb-0" id="grants-heading">{{ include.title }}</h4>
+        <h2 class="h4 mb-0" id="grants-heading">{{ include.title }}</h2>
         <span class="text-muted small">{{ grants.size }} projects &middot; &yen;{{ total_m }}M total</span>
     </div>
 

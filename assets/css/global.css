@@ -1,6 +1,7 @@
 @charset "utf-8";
 :root {
-    --site-accent: #006f8e;
+    --site-accent: #185fa5;
+    --site-accent-hover: #0f4a85;
     --site-text: #24313d;
     --fs-xs: 0.75rem;
     --fs-sm: 0.8125rem;
@@ -10,6 +11,11 @@
 
 html {
     scroll-behavior: smooth;
+}
+
+section[id],
+#Profile {
+    scroll-margin-top: 5.5rem;
 }
 
 body {
@@ -23,9 +29,40 @@ body {
 a:focus-visible,
 button:focus-visible,
 input:focus-visible {
-    outline: 3px solid rgba(0, 111, 142, 0.35);
+    outline: 3px solid rgba(24, 95, 165, 0.35);
     outline-offset: 2px;
 }
+
+a {
+    color: var(--site-accent);
+}
+
+a:hover,
+a:focus {
+    color: var(--site-accent-hover);
+}
+
+.navbar.navbar-light .navbar-brand,
+.navbar.navbar-light .navbar-brand:hover {
+    color: var(--site-accent);
+}
+
+.footer-note {
+    font-size: var(--fs-xs);
+}
+
+.admissions-cta {
+    background-color: #ecf2fa;
+    border-left: 3px solid var(--site-accent);
+    font-size: var(--fs-md);
+}
+
+.admissions-cta-icon {
+    color: var(--site-accent);
+    font-size: 1.25rem;
+    line-height: 1;
+}
+
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -69,12 +106,6 @@ h4, .h4 {
     opacity: 0.95;
 }
 
-#Publications,
-#Grants,
-#Group {
-    scroll-margin-top: 5.5rem;
-}
-
 .publication-heading {
     display: flex;
     align-items: center;
@@ -98,7 +129,10 @@ h4, .h4 {
 }
 
 .profile-portrait {
-    height: 200px;
+    width: 200px;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
     border-radius: 5%;
 }
 
@@ -278,6 +312,121 @@ h4, .h4 {
     font-variant-numeric: tabular-nums;
 }
 
+.svc-subhead {
+    font-size: var(--fs-lg);
+    color: #6c757d;
+}
+
+.svc-row {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 0.25rem 0.5rem;
+    margin: 0 -0.5rem;
+    border-radius: 6px;
+    transition: background-color 0.15s ease-in-out;
+}
+
+.svc-row:hover {
+    background-color: #f8f9fa;
+}
+
+.svc-name {
+    min-width: 0;
+    font-size: var(--fs-md);
+}
+
+.svc-role {
+    font-size: var(--fs-sm);
+    color: #6c757d;
+}
+
+.svc-year {
+    flex: 0 0 auto;
+    font-size: var(--fs-sm);
+    color: #6c757d;
+    font-variant-numeric: tabular-nums;
+}
+
+.svc-pc-year {
+    gap: 0.75rem;
+    padding: 0.3rem 0;
+}
+
+.svc-pc-year:first-child {
+    border-top: 0 !important;
+}
+
+.svc-pc-label {
+    flex: 0 0 3rem;
+    font-size: var(--fs-sm);
+    font-weight: 600;
+    color: #6c757d;
+    padding-top: 0.25rem;
+}
+
+.svc-pc-body {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.375rem;
+    min-width: 0;
+}
+
+.svc-venue {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.1rem 0.6rem;
+    font-size: var(--fs-sm);
+    line-height: 1.5;
+    border-radius: 12px;
+    background-color: #f1f3f5;
+    color: #55636f;
+}
+
+.svc-review-venues {
+    font-size: var(--fs-sm);
+    color: #55636f;
+}
+
+.svc-toggle {
+    font-size: var(--fs-sm);
+}
+
+.svc-toggle:hover,
+.svc-toggle:focus {
+    text-decoration: none;
+}
+
+.svc-toggle .svc-toggle-less {
+    display: none;
+}
+
+.svc-toggle[aria-expanded="true"] .svc-toggle-more {
+    display: none;
+}
+
+.svc-toggle[aria-expanded="true"] .svc-toggle-less {
+    display: inline;
+}
+
+.news-year {
+    flex: 0 0 3rem;
+    font-size: var(--fs-sm);
+    font-weight: 600;
+    color: #6c757d;
+    padding-top: 0.15rem;
+}
+
+.news-item {
+    gap: 1rem;
+}
+
+.news-date {
+    font-size: var(--fs-sm);
+    font-variant-numeric: tabular-nums;
+}
+
 #publication-search::-webkit-search-cancel-button,
 #publication-search::-webkit-search-decoration {
     -webkit-appearance: none;
@@ -350,5 +499,14 @@ img.lazy {
     h4, .h4 {
         font-size: 1.125rem;
     }
+
+    .svc-row {
+        flex-wrap: wrap;
+    }
+
+    .svc-name {
+        flex: 1 1 100%;
+    }
 }
+
 

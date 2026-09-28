@@ -2,12 +2,12 @@
 {% assign alumni = include.group.alumni %}
 <section class="my-3 p-0 bg-white shadow-sm rounded-sm" id="Group" aria-labelledby="group-heading">
     <div class="group-heading border-bottom border-gray p-3">
-        <h4 class="mb-0" id="group-heading">{{ include.title }}</h4>
+        <h2 class="h4 mb-0" id="group-heading">{{ include.title }}</h2>
         <span class="text-muted small">{{ student.size }} current members &middot; {{ alumni.size }} alumni</span>
     </div>
 
     <div class="p-3">
-        <h6 class="group-subhead">Current members</h6>
+        <h3 class="h6 group-subhead">Current members</h3>
         <div class="row">
             {% for item in student %}
             <div class="col-12 col-sm-6 col-md-4 col-xl-3 mb-3">
@@ -18,7 +18,7 @@
     </div>
 
     <div class="p-3 border-top border-gray">
-        <h6 class="group-subhead">Alumni</h6>
+        <h3 class="h6 group-subhead">Alumni</h3>
         {% assign alumni_by_year = alumni | group_by_exp: "item", "item.period | split: '-' | last | strip" | sort: "name" | reverse %}
         <div class="group-year-list">
             {% for year in alumni_by_year %}
