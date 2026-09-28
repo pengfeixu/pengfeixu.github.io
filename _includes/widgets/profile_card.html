@@ -5,7 +5,7 @@
                 <div class="row">
                     <div class="col">
                         <header class="h1 font-weight-normal mb-2">
-                            {{ site.data.profile.primary_name }} <small>{{ site.data.profile.secondary_name }}</small>
+                            {{ site.data.profile.primary_name }} <small class="profile-name-alt">{{ site.data.profile.secondary_name }}</small>
                         </header>
                         <div class="text-profile-position">
                             {% for position in site.data.profile.positions %}
@@ -28,8 +28,7 @@
                         <figure class="figure">
                             <img 
                                 src="{{ site.data.profile.portrait_url | relative_url }}" 
-                                class="figure-img img-fluid img-thumbnail" 
-                                style="height: 200px; border-radius: 5%"
+                                class="figure-img img-fluid img-thumbnail profile-portrait"
                                 alt="{{ site.data.profile.portrait_caption }}"
                                 loading="eager"
                                 decoding="async"
@@ -66,12 +65,6 @@
                         </a>
                         {% endif %}
 
-                        {% if site.data.profile.wechat_qrcode %}
-                        <a class="pr-3 no-break" data-toggle="modal" data-target="#modal-wechat">
-                            <i class="fab fa-weixin"></i> WeChat
-                        </a>
-                        {% endif %}
-
                         {% if site.data.profile.twitter %}
                         <a class="pr-3 no-break" target="_blank" rel="noopener noreferrer" href="https://twitter.com/{{ site.data.profile.twitter }}">
                             <i class="fab fa-twitter"></i> Twitter
@@ -96,22 +89,3 @@
     </div>
 </div>
 
-{% if site.data.profile.wechat_qrcode %}
-<div class="modal fade" id="modal-wechat" tabindex="-1" aria-hidden="true">
-    <div class="modal-dialog modal-sm">
-        <div class="modal-content">
-            <div class="modal-body p-0">
-                <img src="{{ site.data.profile.wechat_qrcode }}" class="img-fluid">
-            </div>
-            {% if site.data.profile.wechat_prompt %}
-            <div class="modal-body p-1">
-                {{ site.data.profile.wechat_prompt }}
-            </div>
-            {% endif %}
-            <div class="modal-footer">
-                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-            </div>
-        </div>
-    </div>
-</div>
-{% endif %}
