@@ -1,0 +1,8 @@
+{% if site.data.profile.admissions %}
+<div class="admissions-cta d-flex align-items-center my-3 p-3 rounded-sm">
+    <span class="admissions-cta-icon mr-3" aria-hidden="true"><i class="fas fa-user-graduate"></i></span>
+    <div class="admissions-cta-body">
+        {{ site.data.profile.admissions }}
+    </div>
+</div>
+{% endif %}
