@@ -12,7 +12,7 @@ authors:
 - Pengfei Xu#
 - Hui Huang
 links:
-  #Paper: https://dl.acm.org/doi/10.1145/3742413.3789058
+  Paper: https://arxiv.org/abs/2608.21659
   Project: https://doudin404.github.io/SketchFlow/
-  # Code: 
+  Code: https://github.com/doudin404/SketchFlow
 ---
