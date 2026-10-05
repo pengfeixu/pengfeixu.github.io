@@ -11,6 +11,6 @@ authors:
 - Pengfei Xu#
 links:
   Paper: https://arxiv.org/abs/2609.05098
-  # Project: https://doudin404.github.io/SPLICE-page/
-  # Code: 
+  Project: https://lijialuo.github.io/LayoutShop/
+  Code: https://github.com/lijialuo/LayoutShop
 ---
